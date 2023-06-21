@@ -1,5 +1,4 @@
 header {
-    
   width: 100%;
   height: 70px;
   background-color: $nav-color;
@@ -20,6 +19,7 @@ header {
       display: flex;
       justify-content: space-between;
       align-items: center;
+    
       .nav-list {
         position: relative;
         padding: 10px;
@@ -208,7 +208,7 @@ header {
 }
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
     header {
         .container {
             .listes{
@@ -305,122 +305,117 @@ header {
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-}
-
-// X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-  header {
-    width: 100%;
-    height: 70px;
-    background-color: $nav-color;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    .container {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      .title-nav {
-        font-size: 30px;
-        width: 15%;
-        cursor: pointer;
-      }
-      .listes {
-        width: 50%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        .nav-list {
-          position: relative;
-          padding: 10px;
-          a {
-            font-weight: 500;
-            color: black;
+    header {
+   
+        .container {
+       
+          .title-nav {
+            font-size: 30px;
+            width: 15%;
+            cursor: pointer;
           }
-        }
-        .nav-list::before {
-          content: "";
-          position: absolute;
-          bottom: 0;
-          left: 0;
-          transform: translateX(-50%);
-          width: 0;
-          height: 3px;
-          background-color: #cf1311;
-          transition: all 0.5s;
-        }
-        .nav-list:hover a {
-          font-weight: 700;
-        }
-        .nav-list:hover::before {
-          left: 50%;
-          width: 90%;
-        }
-      }
-
-      .drop {
-        position: relative;
-
-        .absolist {
-          background-color: #fff;
-          position: absolute;
-          width: 150px;
-          left: 0;
-          top: 150%;
-          opacity: 0;
-
-          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 10px 0px;
-          transition: all 0.5s;
-          .list {
-            padding: 10px;
-            a {
-              font-weight: 400;
-              color: black;
+          .listes {
+            width: 60%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          
+            .nav-list {
+              position: relative;
+              padding: 10px;
+              a {
+                font-size: 16px;
+                font-weight: 500;
+                color: black;
+              }
+            }
+            .nav-list::before {
+              content: "";
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              transform: translateX(-50%);
+              width: 0;
+              height: 3px;
+              background-color: #cf1311;
+              transition: all 0.5s;
+            }
+            .nav-list:hover a {
+              font-weight: 700;
+            }
+            .nav-list:hover::before {
+              left: 50%;
+              width: 90%;
             }
           }
-          .list:hover a {
-            font-weight: 700;
+      
+          .drop {
+            position: relative;
+      
+            .absolist {
+              background-color: #fff;
+              position: absolute;
+              width: 150px;
+              left: 0;
+              top: 150%;
+              opacity: 0;
+      
+              box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 10px 0px;
+              transition: all 0.5s;
+              .list {
+                padding: 10px;
+                a {
+                  font-weight: 400;
+                  color: black;
+                }
+              }
+              .list:hover a {
+                font-weight: 700;
+              }
+            }
+          }
+          .drop::after {
+            content: "\f078";
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            position: absolute;
+            font-size: 10px;
+            margin-left: 5px;
+            top: 50%;
+            transform: translateY(-50%);
+          }
+          .drop:hover .absolist {
+            opacity: 1;
+            top: 100%;
+            display: block;
+          }
+          .connexion {
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            width: 15%;
+            height: 30px;
+      
+            a {
+              padding: 5px 10px;
+              background-color: $red-color;
+              border-radius: 30px;
+              color: white;
+            }
+          }
+          .mobile-nav {
+            cursor: pointer;
+            font-size: 20px;
+            display: none;
           }
         }
       }
-      .drop::after {
-        content: "\f078";
-        font-family: "Font Awesome 5 Free";
-        font-weight: 900;
-        position: absolute;
-        font-size: 10px;
-        margin-left: 5px;
-        top: 50%;
-        transform: translateY(-50%);
-      }
-      .drop:hover .absolist {
-        opacity: 1;
-        top: 100%;
-        display: block;
-      }
-      .connexion {
-        display: flex;
-        justify-content: end;
-        align-items: center;
-        width: 15%;
-        height: 30px;
-
-        a {
-          padding: 5px 10px;
-          background-color: $red-color;
-          border-radius: 30px;
-          color: white;
-        }
-      }
-      .mobile-nav {
-        cursor: pointer;
-        font-size: 20px;
-        display: none;
-      }
-    }
-  }
 }
+
+
 
 // XX-Large devices (larger desktops, 1400px and up)
 @media (min-width: 1400px) {
+   
 }
+ 
