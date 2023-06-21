@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +8,67 @@
     <link rel="shortcut icon" href="./public/img/hero-img.png" type="image/x-icon">
     <title>LionsResto</title>
     <link rel="stylesheet" href="./public/css/app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-    <div class="container">
-        <h1>hello</h1>
-    </div>
+    <header>
+        <div class="container">
+            <h1 class="title-nav">LionsResto.</h1>
+            <ul class="listes">
+                <li class="nav-list"><a href="">Home</a></li>
+                <li class="nav-list"><a href="">About</a></li>
+                <li class="nav-list"><a href="">Menu</a></li>
+                <li class="nav-list"><a href="">Events</a></li>
+                <li class="nav-list"><a href="">Chefs</a></li>
+                <li class="nav-list"><a href="">Gallery</a></li>
+                <li class="nav-list drop"><a href="">Drop Down</a>
+                    <ul class="absolist">
+                        <li class="list"><a href="">Drop Down 1</a></li>
+                        <li class="list"><a href="">Deep Drop Down</a></li>
+                        <li class="list"><a href="">Drop Down 2</a></li>
+                        <li class="list"><a href="">Drop Down 3</a></li>
+                        <li class="list"><a href="">Drop Down 4</a></li>
+                    </ul>
+                </li>
+                <li class="nav-list"><a href="">Contact</a></li>
+            </ul>
+            <div class="connexion">
+                <a href="#">Connexion</a>
+            </div>
+            <!-- for media query mobil and tablet -->
+            <div class="mobile-nav">
+                <i class="fa-solid fa-bars" id="open"></i>
+                <div class="divmobile">
+                    <div class="close">
+                        <i class="fa-solid fa-xmark" id="close"></i>
+                    </div>
+                    <ul class="listes-m">
+                        <li class="nav-list-m active"><a href="">Home</a></li>
+                        <li class="nav-list-m"><a href="">About</a></li>
+                        <li class="nav-list-m"><a href="">Menu</a></li>
+                        <li class="nav-list-m"><a href="">Events</a></li>
+                        <li class="nav-list-m"><a href="">Chefs</a></li>
+                        <li class="nav-list-m"><a href="">Gallery</a></li>
+                        <li class="nav-list-m drop-m"><a href="" class="drop-main">Drop Down</a>
+                            <ul class="absolist-m">
+                                <li class="list-m"><a href="">Drop Down 1</a></li>
+                                <li class="list-m"><a href="">Deep Drop Down</a></li>
+                                <li class="list-m"><a href="">Drop Down 2</a></li>
+                                <li class="list-m"><a href="">Drop Down 3</a></li>
+                                <li class="list-m"><a href="">Drop Down 4</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-list-m"><a href="">Contact</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
 
 
 
@@ -22,4 +79,5 @@
 
     <script src="./public/js/app.js"></script>
 </body>
+
 </html>

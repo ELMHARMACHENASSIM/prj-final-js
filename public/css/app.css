@@ -8,9 +8,9 @@
 }
 
 body {
+  overflow-x: hidden;
   background-color: #efefee;
   font-family: "Roboto", sans-serif;
-  font-family: "Amatic SC", cursive;
 }
 
 li {
@@ -23,8 +23,8 @@ a {
 
 .container {
   width: 90%;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -52,6 +52,392 @@ a {
 @media (min-width: 1400px) {
   .container {
     width: 1320px;
+  }
+}
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #fffefe;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container .title-nav {
+  font-size: 30px;
+  width: 15%;
+  cursor: pointer;
+}
+header .container .listes {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container .listes .nav-list {
+  position: relative;
+  padding: 10px;
+}
+header .container .listes .nav-list a {
+  font-weight: 500;
+  color: black;
+}
+header .container .listes .nav-list::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translateX(-50%);
+  width: 0;
+  height: 3px;
+  background-color: #cf1311;
+  transition: all 0.5s;
+}
+header .container .listes .nav-list:hover a {
+  font-weight: 700;
+}
+header .container .listes .nav-list:hover::before {
+  left: 50%;
+  width: 90%;
+}
+header .container .drop {
+  position: relative;
+}
+header .container .drop .absolist {
+  background-color: #fff;
+  position: absolute;
+  width: 150px;
+  left: 0;
+  top: 150%;
+  opacity: 0;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 10px 0px;
+  transition: all 0.5s;
+}
+header .container .drop .absolist .list {
+  padding: 10px;
+}
+header .container .drop .absolist .list a {
+  font-weight: 400;
+  color: black;
+}
+header .container .drop .absolist .list:hover a {
+  font-weight: 700;
+}
+header .container .drop::after {
+  content: "\f078";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: absolute;
+  font-size: 10px;
+  margin-left: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+header .container .drop:hover .absolist {
+  opacity: 1;
+  top: 100%;
+  display: block;
+}
+header .container .connexion {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 15%;
+  height: 30px;
+}
+header .container .connexion a {
+  padding: 5px 10px;
+  background-color: #cf1311;
+  border-radius: 30px;
+  color: white;
+}
+header .container .mobile-nav {
+  cursor: pointer;
+  font-size: 20px;
+  display: none;
+}
+
+@media (max-width: 576px) {
+  header .container .listes {
+    display: none;
+  }
+  header .container .title-nav {
+    width: auto;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  header .container .connexion {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: auto;
+    height: 30px;
+    flex: 1;
+    margin-right: 10px;
+  }
+  header .container .connexion a {
+    padding: 5px 10px;
+    background-color: #cf1311;
+    border-radius: 30px;
+    color: white;
+  }
+  header .container .mobile-nav {
+    cursor: pointer;
+    font-size: 20px;
+    display: block;
+  }
+  header .container .mobile-nav .divmobile {
+    position: absolute;
+    top: 0;
+    right: -100%;
+    background-color: #fff;
+    width: 90%;
+    transition: all 0.8s;
+  }
+  header .container .mobile-nav .divmobile .close {
+    padding: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  header .container .mobile-nav .divmobile .close i {
+    font-size: 30px;
+  }
+  header .container .mobile-nav .divmobile .listes-m {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+  }
+  header .container .mobile-nav .divmobile .listes-m .nav-list-m {
+    width: 100%;
+    padding: 10px;
+  }
+  header .container .mobile-nav .divmobile .listes-m .nav-list-m a {
+    color: black;
+  }
+  header .container .mobile-nav .divmobile .listes-m .nav-list-m.active {
+    border-bottom: 2px solid #cf1311;
+  }
+  header .container .mobile-nav .divmobile .listes-m .drop-m .drop-main {
+    position: relative;
+  }
+  header .container .mobile-nav .divmobile .listes-m .drop-m .absolist-m {
+    margin-left: 30px;
+  }
+  header .container .mobile-nav .divmobile .listes-m .drop-m .absolist-m .list-m {
+    padding: 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.284);
+  }
+  header .container .mobile-nav .divmobile .listes-m .drop-m .absolist-m .list-m a {
+    color: rgba(0, 0, 0, 0.561);
+  }
+  header .container .mobile-nav .divmobile .listes-m .drop-m .drop-main::after {
+    content: "\f078";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    font-size: 10px;
+    margin-left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+@media (min-width: 768px) {
+  header .container .listes {
+    display: none;
+  }
+  header .container .title-nav {
+    width: auto;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  header .container .connexion {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex: 1;
+    margin-right: 30px;
+    height: 30px;
+  }
+  header .container .connexion a {
+    padding: 5px 10px;
+    background-color: #cf1311;
+    border-radius: 30px;
+    color: white;
+  }
+  header .container .mobile-nav {
+    cursor: pointer;
+    font-size: 20px;
+    display: block;
+  }
+  header .container .mobile-nav .divmobile {
+    position: absolute;
+    top: 0;
+    right: -100%;
+    background-color: #fff;
+    width: 90%;
+    transition: all 0.8s;
+  }
+  header .container .mobile-nav .divmobile .close {
+    padding: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  header .container .mobile-nav .divmobile .close i {
+    font-size: 30px;
+  }
+  header .container .mobile-nav .divmobile .listes-m {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+  }
+  header .container .mobile-nav .divmobile .listes-m .nav-list-m {
+    width: 100%;
+    padding: 10px;
+  }
+  header .container .mobile-nav .divmobile .listes-m .nav-list-m a {
+    color: black;
+  }
+  header .container .mobile-nav .divmobile .listes-m .nav-list-m.active {
+    border-bottom: 2px solid #cf1311;
+  }
+  header .container .mobile-nav .divmobile .listes-m .drop-m .drop-main {
+    position: relative;
+  }
+  header .container .mobile-nav .divmobile .listes-m .drop-m .absolist-m {
+    margin-left: 30px;
+  }
+  header .container .mobile-nav .divmobile .listes-m .drop-m .absolist-m .list-m {
+    padding: 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.284);
+  }
+  header .container .mobile-nav .divmobile .listes-m .drop-m .absolist-m .list-m a {
+    color: rgba(0, 0, 0, 0.561);
+  }
+  header .container .mobile-nav .divmobile .listes-m .drop-m .drop-main::after {
+    content: "\f078";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    font-size: 10px;
+    margin-left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+@media (min-width: 1200px) {
+  header {
+    width: 100%;
+    height: 70px;
+    background-color: #fffefe;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .container .title-nav {
+    font-size: 30px;
+    width: 15%;
+    cursor: pointer;
+  }
+  header .container .listes {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .container .listes .nav-list {
+    position: relative;
+    padding: 10px;
+  }
+  header .container .listes .nav-list a {
+    font-weight: 500;
+    color: black;
+  }
+  header .container .listes .nav-list::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-50%);
+    width: 0;
+    height: 3px;
+    background-color: #cf1311;
+    transition: all 0.5s;
+  }
+  header .container .listes .nav-list:hover a {
+    font-weight: 700;
+  }
+  header .container .listes .nav-list:hover::before {
+    left: 50%;
+    width: 90%;
+  }
+  header .container .drop {
+    position: relative;
+  }
+  header .container .drop .absolist {
+    background-color: #fff;
+    position: absolute;
+    width: 150px;
+    left: 0;
+    top: 150%;
+    opacity: 0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 10px 0px;
+    transition: all 0.5s;
+  }
+  header .container .drop .absolist .list {
+    padding: 10px;
+  }
+  header .container .drop .absolist .list a {
+    font-weight: 400;
+    color: black;
+  }
+  header .container .drop .absolist .list:hover a {
+    font-weight: 700;
+  }
+  header .container .drop::after {
+    content: "\f078";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    font-size: 10px;
+    margin-left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  header .container .drop:hover .absolist {
+    opacity: 1;
+    top: 100%;
+    display: block;
+  }
+  header .container .connexion {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 15%;
+    height: 30px;
+  }
+  header .container .connexion a {
+    padding: 5px 10px;
+    background-color: #cf1311;
+    border-radius: 30px;
+    color: white;
+  }
+  header .container .mobile-nav {
+    cursor: pointer;
+    font-size: 20px;
+    display: none;
   }
 }
 
