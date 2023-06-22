@@ -14,25 +14,18 @@
 
 
 
-Custom Parties
-$99
-Quo corporis voluptas ea ad. Consectetur inventore sapiente ipsum voluptas eos omnis facere. Enim facilis veritatis id est rem repudiandae nulla expedita quas.
-Private Parties $289
-In delectus sint qui et enim. Et ab repudiandae inventore quaerat doloribus. Facere nemo vero est ut dolores ea assumenda et. Delectus saepe accusamus aspernatur.
-C
-FL
-CHEFS
-OUR PROFFESIONAL CHEFS
-Walter White
-Master Chef
-Velit aut quia fugit et et. Dolorum ea voluptate vel tempore
-tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.
-Sarah Jhonson
-Patissier
-Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit corporis. Voluptate sed quas reiciendis animi neque sapiente.
-William Anderson
-Cook
-Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.
+
+
+
+
+
+
+
+
+
+
+
+
 BOOK A TABLE
 BOOK YOUR STAY WITH US
 Your Name

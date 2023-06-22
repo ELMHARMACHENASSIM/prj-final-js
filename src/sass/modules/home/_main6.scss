@@ -6,9 +6,10 @@
     max-width: 100%;
     width: 100%;
     .carusel {
-     
+      
       display: grid;
       grid-auto-flow: column;
+      gap: 20px;
       grid-auto-columns: calc(100% / 3);
       overflow: hidden;
       scroll-snap-type: x mandatory;
