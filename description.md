@@ -9,40 +9,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-OUR MENU
-CHECK OUR LIONSRESTO MENU
-Starters Breakfast Lunch Dinner
-MENU
-Starters
-Magnam Tiste
-Lorem, deren, trataro, filede, nerada $5.95
-Aut Luia Lorem, deren, trataro, filede, nerada $14.95
-Est Eligendi
-Lorem, deren, trataro, filede, nerada $8.95
-Eos Luibusdam Lorem, deren, trataro, filede, nerada
-Eos Luibusdam
-$12.95
-Lorem, deren, trataro, filede, nerada $12.95
-Laboriosam Direva Lorem, deren, trataro, filede, nerada
-$9.95
 EVENTS
 SHARE YOUR MOMENTS IN OUR RESTAURANT
 Birthday Parties
