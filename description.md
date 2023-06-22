@@ -26,22 +26,22 @@
 
 
 
-BOOK A TABLE
-BOOK YOUR STAY WITH US
-Your Name
-Your Email
-Your Phone
-Date
-Message
-Time
+
+
+
+
+
+
+
+
 GALLERY
 CHECK OUR GALLERY
 BIG... JPA
 FUN.
 CONTACT
 NEED HELP? CONTACT US
-Book a Table
-# of people
+
+
 *
 ÉT
 Downtown Conference Center

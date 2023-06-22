@@ -2911,5 +2911,354 @@ header .container .mobile-nav {
     color: rgba(104, 103, 103, 0.693);
   }
 }
+.section-8 {
+  margin-top: 40px;
+  width: 100%;
+  background-color: #fff;
+}
+.section-8 .container {
+  background-color: #efefee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  height: 600px;
+}
+.section-8 .container .imageforme {
+  width: 30%;
+  height: 100%;
+}
+.section-8 .container .imageforme img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.section-8 .container form {
+  flex: 1;
+  padding: 40px;
+}
+.section-8 .container form .divone {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;
+}
+.section-8 .container form .divone input {
+  width: 30%;
+  height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+  outline: none;
+}
+.section-8 .container form .divone textarea {
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 100%;
+  height: 150px;
+  border: none;
+  outline: none;
+}
+.section-8 .container form .btnsend {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-8 .container form .btnsend .bktbl {
+  text-align: center;
+  width: 150px;
+  height: 40px;
+  background-color: #cf1311;
+  border: none;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+@media (max-width: 576px) {
+  .section-8 {
+    margin-top: 40px;
+    width: 100%;
+    background-color: #fff;
+  }
+  .section-8 .container {
+    background-color: #efefee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 600px;
+  }
+  .section-8 .container .imageforme {
+    width: 100%;
+    height: 100%;
+  }
+  .section-8 .container .imageforme img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .section-8 .container form {
+    padding: 10px;
+    width: 100%;
+  }
+  .section-8 .container form .divone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .section-8 .container form .divone input {
+    margin-top: 10px;
+    width: 90%;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    outline: none;
+  }
+  .section-8 .container form .divone textarea {
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 100%;
+    height: 150px;
+    border: none;
+    outline: none;
+  }
+  .section-8 .container form .btnsend {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-8 .container form .btnsend .bktbl {
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    background-color: #cf1311;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 30px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .section-8 {
+    margin-top: 40px;
+    width: 100%;
+    background-color: #fff;
+  }
+  .section-8 .container {
+    background-color: #efefee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 600px;
+  }
+  .section-8 .container .imageforme {
+    width: 100%;
+    height: 100%;
+  }
+  .section-8 .container .imageforme img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .section-8 .container form {
+    flex: 1;
+    padding: 40px;
+  }
+  .section-8 .container form .divone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+  }
+  .section-8 .container form .divone input {
+    width: 30%;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    outline: none;
+  }
+  .section-8 .container form .divone textarea {
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 100%;
+    height: 150px;
+    border: none;
+    outline: none;
+  }
+  .section-8 .container form .btnsend {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-8 .container form .btnsend .bktbl {
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    background-color: #cf1311;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 30px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .section-8 {
+    margin-top: 40px;
+    width: 100%;
+    background-color: #fff;
+  }
+  .section-8 .container {
+    background-color: #efefee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    height: 600px;
+  }
+  .section-8 .container .imageforme {
+    width: 30%;
+    height: 100%;
+  }
+  .section-8 .container .imageforme img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .section-8 .container form {
+    flex: 1;
+    padding: 40px;
+  }
+  .section-8 .container form .divone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    margin-top: 30px;
+  }
+  .section-8 .container form .divone input {
+    width: 30%;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    outline: none;
+  }
+  .section-8 .container form .divone textarea {
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 100%;
+    height: 150px;
+    border: none;
+    outline: none;
+  }
+  .section-8 .container form .btnsend {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-8 .container form .btnsend .bktbl {
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    background-color: #cf1311;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  .section-8 {
+    margin-top: 40px;
+    width: 100%;
+    background-color: #fff;
+  }
+  .section-8 .container {
+    background-color: #efefee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    height: 600px;
+  }
+  .section-8 .container .imageforme {
+    width: 30%;
+    height: 100%;
+  }
+  .section-8 .container .imageforme img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .section-8 .container form {
+    flex: 1;
+    padding: 40px;
+  }
+  .section-8 .container form .divone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+  }
+  .section-8 .container form .divone input {
+    width: 30%;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    outline: none;
+  }
+  .section-8 .container form .divone textarea {
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 100%;
+    height: 150px;
+    border: none;
+    outline: none;
+  }
+  .section-8 .container form .btnsend {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-8 .container form .btnsend .bktbl {
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    background-color: #cf1311;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 30px;
+  }
+}
 
 /*# sourceMappingURL=app.css.map */
