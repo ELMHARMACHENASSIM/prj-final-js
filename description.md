@@ -9,11 +9,11 @@
 
 
 
-EVENTS
-SHARE YOUR MOMENTS IN OUR RESTAURANT
-Birthday Parties
-$499
-Laborum aperiam atque omnis minus omnis est qui assumenda quos. Quis id sit quibusdam. Esse quisquam ducimus officia ipsum ut quibusdam maxime. Non enim perspiciatis.
+
+
+
+
+
 Custom Parties
 $99
 Quo corporis voluptas ea ad. Consectetur inventore sapiente ipsum voluptas eos omnis facere. Enim facilis veritatis id est rem repudiandae nulla expedita quas.
