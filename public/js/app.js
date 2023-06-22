@@ -15,6 +15,7 @@ let watchVd = document.querySelector(".watch");
 let closeVd = document.querySelector("#close-vd");
 let vdContent = document.querySelector(".fixed-vd");
 let frameVd = document.querySelector(".frame-vd");
+let clickwatch = document.querySelector("#clickwatch");
 console.log(watchVd, closeVd, vdContent);
 
 function openVd() {
@@ -28,9 +29,13 @@ function closeVideo() {
 watchVd.addEventListener("click", () => {
   openVd();
 });
+clickwatch.addEventListener("click", () => {
+  openVd();
+});
 closeVd.addEventListener("click", () => {
   closeVideo();
 });
+
 
 // --------------------------------------------------------
 
