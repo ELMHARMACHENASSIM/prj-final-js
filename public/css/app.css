@@ -50,6 +50,33 @@ a {
   font-weight: 100;
 }
 
+.up {
+  position: fixed;
+  bottom: 30px;
+  right: -80px;
+  transition: 0.3s;
+  width: 40px;
+  height: 40px;
+  background-color: #cf1311;
+  border-radius: 50%;
+}
+.up i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  cursor: pointer;
+  color: white;
+}
+
+.up.show {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 10px;
+  z-index: 10;
+}
+
 @media (min-width: 576px) {
   .container {
     width: 540px;
