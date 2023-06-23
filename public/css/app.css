@@ -2714,6 +2714,7 @@ header .container .mobile-nav {
 }
 .section-7 .container .chef {
   width: 400px;
+  transition: all 0.5s;
 }
 .section-7 .container .chef .chefimg {
   width: 100%;
@@ -2741,6 +2742,9 @@ header .container .mobile-nav {
   padding-top: 10px;
   color: rgba(104, 103, 103, 0.693);
 }
+.section-7 .container .chef:hover {
+  transform: scale(1.1);
+}
 
 @media (max-width: 576px) {
   .section-7 {
@@ -2756,6 +2760,7 @@ header .container .mobile-nav {
   }
   .section-7 .container .chef {
     width: 400px;
+    transition: all 0.5s;
   }
   .section-7 .container .chef .chefimg {
     width: 100%;
@@ -2799,6 +2804,7 @@ header .container .mobile-nav {
   }
   .section-7 .container .chef {
     width: 350px;
+    transition: all 0.5s;
   }
   .section-7 .container .chef .chefimg {
     width: 100%;
@@ -2825,6 +2831,9 @@ header .container .mobile-nav {
   .section-7 .container .chef .chefinfo p {
     padding-top: 10px;
     color: rgba(104, 103, 103, 0.693);
+  }
+  .section-7 .container .chef:hover {
+    transform: scale(1.1);
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -2841,6 +2850,7 @@ header .container .mobile-nav {
   }
   .section-7 .container .chef {
     width: 400px;
+    transition: all 0.5s;
   }
   .section-7 .container .chef .chefimg {
     width: 100%;
@@ -2867,6 +2877,9 @@ header .container .mobile-nav {
   .section-7 .container .chef .chefinfo p {
     padding-top: 10px;
     color: rgba(104, 103, 103, 0.693);
+  }
+  .section-7 .container .chef:hover {
+    transform: scale(1.1);
   }
 }
 @media (min-width: 1200px) {
@@ -2883,6 +2896,7 @@ header .container .mobile-nav {
   }
   .section-7 .container .chef {
     width: 400px;
+    transition: all 0.5s;
   }
   .section-7 .container .chef .chefimg {
     width: 100%;
@@ -2909,6 +2923,9 @@ header .container .mobile-nav {
   .section-7 .container .chef .chefinfo p {
     padding-top: 10px;
     color: rgba(104, 103, 103, 0.693);
+  }
+  .section-7 .container .chef:hover {
+    transform: scale(1.1);
   }
 }
 .section-8 {
@@ -3318,6 +3335,8 @@ header .container .mobile-nav {
   color: #fff;
   font-size: 20px;
   cursor: pointer;
+  border: none;
+  outline: none;
 }
 
 @media (max-width: 576px) {
@@ -3537,6 +3556,608 @@ header .container .mobile-nav {
     background-color: #cf1311;
     color: #fff;
     font-size: 20px;
+    cursor: pointer;
+  }
+}
+.section-10 {
+  margin-top: 40px;
+  width: 100%;
+  background-color: #fff;
+  height: 100%;
+}
+.section-10 .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.section-10 .container .map {
+  width: 100%;
+}
+.section-10 .container .contactdiv {
+  width: 100%;
+}
+.section-10 .container .contactdiv .contone {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.section-10 .container .contactdiv .contone .cont {
+  padding: 15px;
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+  align-items: center;
+  width: 50%;
+  background-color: #efefee;
+}
+.section-10 .container .contactdiv .contone .cont .icon {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background-color: #cf1311;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-10 .container .contactdiv .contone .cont .icon i {
+  color: #fff;
+  font-size: 25px;
+}
+.section-10 .container .contactdiv .contone .cont .infoico h3 {
+  font-weight: 400;
+}
+.section-10 .container .contactdiv .contone .cont .infoico p {
+  color: #4a4a4a;
+}
+.section-10 .container .contactdiv .contone .cont .infoico p span {
+  font-weight: 800;
+}
+.section-10 .container .contact-us {
+  margin-top: 40px;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: rgba(100, 100, 111, 0.4) 0px 2px 14px 0px;
+}
+.section-10 .container .contact-us .joujdivat {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.section-10 .container .contact-us .joujdivat input {
+  width: 50%;
+  height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid rgba(136, 136, 136, 0.5607843137);
+  outline: none;
+}
+.section-10 .container .contact-us .subject {
+  width: 100%;
+}
+.section-10 .container .contact-us .subject input {
+  width: 100%;
+  height: 40px;
+  margin-top: 30px;
+  border: 1px solid rgba(136, 136, 136, 0.5607843137);
+  outline: none;
+}
+.section-10 .container .contact-us .textear {
+  width: 100%;
+  height: 100px;
+}
+.section-10 .container .contact-us .textear textarea {
+  margin-top: 20px;
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgba(136, 136, 136, 0.5607843137);
+  outline: none;
+}
+.section-10 .container .contact-us .btnsend {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-10 .container .contact-us .btnsend .sendform {
+  width: 150px;
+  background-color: #cf1311;
+  padding: 20px;
+  border: none;
+  border-radius: 30px;
+  margin-top: 50px;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media (max-width: 576px) {
+  .section-10 {
+    margin-top: 40px;
+    width: 100%;
+    background-color: #fff;
+    height: 100%;
+  }
+  .section-10 .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .section-10 .container .map {
+    width: 100%;
+  }
+  .section-10 .container .contactdiv {
+    width: 100%;
+  }
+  .section-10 .container .contactdiv .contone {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .section-10 .container .contactdiv .contone .cont {
+    padding: 15px;
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+    background-color: #efefee;
+  }
+  .section-10 .container .contactdiv .contone .cont .icon {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #cf1311;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-10 .container .contactdiv .contone .cont .icon i {
+    color: #fff;
+    font-size: 15px;
+  }
+  .section-10 .container .contactdiv .contone .cont .infoico h3 {
+    font-weight: 400;
+    font-size: 12px;
+  }
+  .section-10 .container .contactdiv .contone .cont .infoico p {
+    color: #4a4a4a;
+    font-size: 12px;
+  }
+  .section-10 .container .contactdiv .contone .cont .infoico p span {
+    font-weight: 800;
+    font-size: 12px;
+  }
+  .section-10 .container .contact-us {
+    padding: 20px;
+    margin-top: 40px;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: rgba(100, 100, 111, 0.4) 0px 2px 14px 0px;
+  }
+  .section-10 .container .contact-us .joujdivat {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .section-10 .container .contact-us .joujdivat input {
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid rgba(136, 136, 136, 0.5607843137);
+    outline: none;
+  }
+  .section-10 .container .contact-us .subject {
+    width: 100%;
+  }
+  .section-10 .container .contact-us .subject input {
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+    border: 1px solid rgba(136, 136, 136, 0.5607843137);
+    outline: none;
+  }
+  .section-10 .container .contact-us .textear {
+    width: 100%;
+    height: 100px;
+  }
+  .section-10 .container .contact-us .textear textarea {
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(136, 136, 136, 0.5607843137);
+    outline: none;
+  }
+  .section-10 .container .contact-us .btnsend {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-10 .container .contact-us .btnsend .sendform {
+    width: 150px;
+    background-color: #cf1311;
+    padding: 20px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 50px;
+    color: #fff;
+    cursor: pointer;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .section-10 {
+    margin-top: 40px;
+    width: 100%;
+    background-color: #fff;
+    height: 100%;
+  }
+  .section-10 .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .section-10 .container .map {
+    width: 100%;
+  }
+  .section-10 .container .contactdiv {
+    width: 100%;
+  }
+  .section-10 .container .contactdiv .contone {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+  }
+  .section-10 .container .contactdiv .contone .cont {
+    padding: 15px;
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+    background-color: #efefee;
+  }
+  .section-10 .container .contactdiv .contone .cont .icon {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: #cf1311;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-10 .container .contactdiv .contone .cont .icon i {
+    color: #fff;
+    font-size: 25px;
+  }
+  .section-10 .container .contactdiv .contone .cont .infoico h3 {
+    font-weight: 400;
+    font-size: 12px;
+  }
+  .section-10 .container .contactdiv .contone .cont .infoico p {
+    color: #4a4a4a;
+    font-size: 12px;
+  }
+  .section-10 .container .contactdiv .contone .cont .infoico p span {
+    font-weight: 800;
+    font-size: 12px;
+  }
+  .section-10 .container .contact-us {
+    padding: 20px;
+    margin-top: 40px;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: rgba(100, 100, 111, 0.4) 0px 2px 14px 0px;
+  }
+  .section-10 .container .contact-us .joujdivat {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .section-10 .container .contact-us .joujdivat input {
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid rgba(136, 136, 136, 0.5607843137);
+    outline: none;
+  }
+  .section-10 .container .contact-us .subject {
+    width: 100%;
+  }
+  .section-10 .container .contact-us .subject input {
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+    border: 1px solid rgba(136, 136, 136, 0.5607843137);
+    outline: none;
+  }
+  .section-10 .container .contact-us .textear {
+    width: 100%;
+    height: 100px;
+  }
+  .section-10 .container .contact-us .textear textarea {
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(136, 136, 136, 0.5607843137);
+    outline: none;
+  }
+  .section-10 .container .contact-us .btnsend {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-10 .container .contact-us .btnsend .sendform {
+    width: 150px;
+    background-color: #cf1311;
+    padding: 20px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 50px;
+    color: #fff;
+    cursor: pointer;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .section-10 {
+    margin-top: 40px;
+    width: 100%;
+    background-color: #fff;
+    height: 100%;
+  }
+  .section-10 .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .section-10 .container .map {
+    width: 100%;
+  }
+  .section-10 .container .contactdiv {
+    width: 100%;
+  }
+  .section-10 .container .contactdiv .contone {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+  }
+  .section-10 .container .contactdiv .contone .cont {
+    padding: 15px;
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    align-items: center;
+    width: 50%;
+    background-color: #efefee;
+  }
+  .section-10 .container .contactdiv .contone .cont .icon {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: #cf1311;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-10 .container .contactdiv .contone .cont .icon i {
+    color: #fff;
+    font-size: 25px;
+  }
+  .section-10 .container .contactdiv .contone .cont .infoico h3 {
+    font-weight: 400;
+  }
+  .section-10 .container .contactdiv .contone .cont .infoico p {
+    color: #4a4a4a;
+  }
+  .section-10 .container .contactdiv .contone .cont .infoico p span {
+    font-weight: 800;
+  }
+  .section-10 .container .contact-us {
+    padding: 20px;
+    margin-top: 40px;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: rgba(100, 100, 111, 0.4) 0px 2px 14px 0px;
+  }
+  .section-10 .container .contact-us .joujdivat {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .section-10 .container .contact-us .joujdivat input {
+    width: 50%;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid rgba(136, 136, 136, 0.5607843137);
+    outline: none;
+  }
+  .section-10 .container .contact-us .subject {
+    width: 100%;
+  }
+  .section-10 .container .contact-us .subject input {
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+    border: 1px solid rgba(136, 136, 136, 0.5607843137);
+    outline: none;
+  }
+  .section-10 .container .contact-us .textear {
+    width: 100%;
+    height: 100px;
+  }
+  .section-10 .container .contact-us .textear textarea {
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(136, 136, 136, 0.5607843137);
+    outline: none;
+  }
+  .section-10 .container .contact-us .btnsend {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-10 .container .contact-us .btnsend .sendform {
+    width: 150px;
+    background-color: #cf1311;
+    padding: 20px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 50px;
+    color: #fff;
+    cursor: pointer;
+  }
+}
+@media (min-width: 1200px) {
+  .section-10 {
+    margin-top: 40px;
+    width: 100%;
+    background-color: #fff;
+    height: 100%;
+  }
+  .section-10 .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .section-10 .container .map {
+    width: 100%;
+  }
+  .section-10 .container .contactdiv {
+    width: 100%;
+  }
+  .section-10 .container .contactdiv .contone {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+  }
+  .section-10 .container .contactdiv .contone .cont {
+    padding: 15px;
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    align-items: center;
+    width: 50%;
+    background-color: #efefee;
+  }
+  .section-10 .container .contactdiv .contone .cont .icon {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: #cf1311;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-10 .container .contactdiv .contone .cont .icon i {
+    color: #fff;
+    font-size: 25px;
+  }
+  .section-10 .container .contactdiv .contone .cont .infoico h3 {
+    font-weight: 400;
+  }
+  .section-10 .container .contactdiv .contone .cont .infoico p {
+    color: #4a4a4a;
+  }
+  .section-10 .container .contactdiv .contone .cont .infoico p span {
+    font-weight: 800;
+  }
+  .section-10 .container .contact-us {
+    padding: 20px;
+    margin-top: 40px;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: rgba(100, 100, 111, 0.4) 0px 2px 14px 0px;
+  }
+  .section-10 .container .contact-us .joujdivat {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .section-10 .container .contact-us .joujdivat input {
+    width: 50%;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid rgba(136, 136, 136, 0.5607843137);
+    outline: none;
+  }
+  .section-10 .container .contact-us .subject {
+    width: 100%;
+  }
+  .section-10 .container .contact-us .subject input {
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+    border: 1px solid rgba(136, 136, 136, 0.5607843137);
+    outline: none;
+  }
+  .section-10 .container .contact-us .textear {
+    width: 100%;
+    height: 100px;
+  }
+  .section-10 .container .contact-us .textear textarea {
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(136, 136, 136, 0.5607843137);
+    outline: none;
+  }
+  .section-10 .container .contact-us .btnsend {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-10 .container .contact-us .btnsend .sendform {
+    width: 150px;
+    background-color: #cf1311;
+    padding: 20px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 50px;
+    color: #fff;
     cursor: pointer;
   }
 }
