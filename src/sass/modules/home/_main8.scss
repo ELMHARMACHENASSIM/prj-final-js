@@ -2,6 +2,8 @@
   margin-top: 40px;
   width: 100%;
   background-color: #fff;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
   .container {
     background-color: $body-color;
     display: flex;
@@ -84,7 +86,7 @@
           align-items: center;
           flex-direction: column;
           gap: 20px;
-          height: 600px;
+          height: 100%;
       
           .imageforme {
             width: 100%;
@@ -118,7 +120,7 @@
               textarea {
                 padding-top: 10px;
                 padding-left: 10px;
-                width: 100%;
+                width: 90%;
                 height: 150px;
                 border: none;
                 outline: none;
@@ -163,7 +165,7 @@
           align-items: center;
           flex-direction: column;
           gap: 20px;
-          height: 600px;
+          height: 100%;
       
           .imageforme {
             width: 100%;
@@ -233,6 +235,7 @@
         margin-top: 40px;
         width: 100%;
         background-color: #fff;
+        padding-bottom: 50px;
         .container {
           background-color: $body-color;
           display: flex;
@@ -309,6 +312,8 @@
         margin-top: 40px;
         width: 100%;
         background-color: #fff;
+        padding-bottom: 50px;
+        margin-bottom: 50px;
         .container {
           background-color: $body-color;
           display: flex;

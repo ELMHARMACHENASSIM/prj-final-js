@@ -2915,6 +2915,8 @@ header .container .mobile-nav {
   margin-top: 40px;
   width: 100%;
   background-color: #fff;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 .section-8 .container {
   background-color: #efefee;
@@ -2992,7 +2994,7 @@ header .container .mobile-nav {
     align-items: center;
     flex-direction: column;
     gap: 20px;
-    height: 600px;
+    height: 100%;
   }
   .section-8 .container .imageforme {
     width: 100%;
@@ -3027,7 +3029,7 @@ header .container .mobile-nav {
   .section-8 .container form .divone textarea {
     padding-top: 10px;
     padding-left: 10px;
-    width: 100%;
+    width: 90%;
     height: 150px;
     border: none;
     outline: none;
@@ -3064,7 +3066,7 @@ header .container .mobile-nav {
     align-items: center;
     flex-direction: column;
     gap: 20px;
-    height: 600px;
+    height: 100%;
   }
   .section-8 .container .imageforme {
     width: 100%;
@@ -3127,6 +3129,7 @@ header .container .mobile-nav {
     margin-top: 40px;
     width: 100%;
     background-color: #fff;
+    padding-bottom: 50px;
   }
   .section-8 .container {
     background-color: #efefee;
@@ -3197,6 +3200,8 @@ header .container .mobile-nav {
     margin-top: 40px;
     width: 100%;
     background-color: #fff;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
   }
   .section-8 .container {
     background-color: #efefee;
@@ -3259,6 +3264,280 @@ header .container .mobile-nav {
     color: #fff;
     cursor: pointer;
     border-radius: 30px;
+  }
+}
+.section-9 {
+  margin-top: 40px;
+  width: 100%;
+  height: auto;
+  background-color: #efefee;
+}
+.section-9 .wrapperimg {
+  max-width: 100%;
+  width: 100%;
+}
+.section-9 .wrapperimg .caruselimg {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 20px;
+  grid-auto-columns: 20%;
+  overflow: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  overflow-x: auto;
+}
+.section-9 .wrapperimg .caruselimg .cardimg {
+  width: 100%;
+  position: relative;
+  height: 100%;
+}
+.section-9 .wrapperimg .caruselimg .cardimg img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.section-9 .wrapperimg .caruselimg::-webkit-scrollbar {
+  display: none;
+}
+.section-9 .wrapperimg .caruselimg.draging .card {
+  cursor: grab;
+  user-select: none;
+}
+.section-9 .btnsslidImg {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.section-9 .btnsslidImg .slidBtnImg {
+  padding: 5px;
+  margin-left: 15px;
+  background-color: #cf1311;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+@media (max-width: 576px) {
+  .section-9 {
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+    background-color: #efefee;
+  }
+  .section-9 .wrapperimg {
+    max-width: 100%;
+    width: 100%;
+  }
+  .section-9 .wrapperimg .caruselimg {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 10px;
+    grid-auto-columns: 100%;
+    overflow: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    overflow-x: auto;
+  }
+  .section-9 .wrapperimg .caruselimg .cardimg {
+    width: 100%;
+    position: relative;
+    height: 100%;
+  }
+  .section-9 .wrapperimg .caruselimg .cardimg img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  .section-9 .wrapperimg .caruselimg::-webkit-scrollbar {
+    display: none;
+  }
+  .section-9 .wrapperimg .caruselimg.draging .card {
+    cursor: grab;
+    user-select: none;
+  }
+  .section-9 .btnsslidImg {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-9 .btnsslidImg .slidBtnImg {
+    padding: 5px;
+    margin-left: 15px;
+    background-color: #cf1311;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .section-9 {
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+    background-color: #efefee;
+  }
+  .section-9 .wrapperimg {
+    max-width: 100%;
+    width: 100%;
+  }
+  .section-9 .wrapperimg .caruselimg {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 20px;
+    grid-auto-columns: 33.3333333333%;
+    overflow: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    overflow-x: auto;
+  }
+  .section-9 .wrapperimg .caruselimg .cardimg {
+    width: 100%;
+    position: relative;
+    height: 100%;
+  }
+  .section-9 .wrapperimg .caruselimg .cardimg img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  .section-9 .wrapperimg .caruselimg::-webkit-scrollbar {
+    display: none;
+  }
+  .section-9 .wrapperimg .caruselimg.draging .card {
+    cursor: grab;
+    user-select: none;
+  }
+  .section-9 .btnsslidImg {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  .section-9 .btnsslidImg .slidBtnImg {
+    padding: 5px;
+    margin-left: 15px;
+    background-color: #cf1311;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .section-9 {
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+    background-color: #efefee;
+  }
+  .section-9 .wrapperimg {
+    max-width: 100%;
+    width: 100%;
+  }
+  .section-9 .wrapperimg .caruselimg {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 20px;
+    grid-auto-columns: 25%;
+    overflow: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    overflow-x: auto;
+  }
+  .section-9 .wrapperimg .caruselimg .cardimg {
+    width: 100%;
+    position: relative;
+    height: 100%;
+  }
+  .section-9 .wrapperimg .caruselimg .cardimg img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  .section-9 .wrapperimg .caruselimg::-webkit-scrollbar {
+    display: none;
+  }
+  .section-9 .wrapperimg .caruselimg.draging .card {
+    cursor: grab;
+    user-select: none;
+  }
+  .section-9 .btnsslidImg {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  .section-9 .btnsslidImg .slidBtnImg {
+    padding: 5px;
+    margin-left: 15px;
+    background-color: #cf1311;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+  }
+}
+@media (min-width: 1200px) {
+  .section-9 {
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+    background-color: #efefee;
+  }
+  .section-9 .wrapperimg {
+    max-width: 100%;
+    width: 100%;
+  }
+  .section-9 .wrapperimg .caruselimg {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 20px;
+    grid-auto-columns: 20%;
+    overflow: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    overflow-x: auto;
+  }
+  .section-9 .wrapperimg .caruselimg .cardimg {
+    width: 100%;
+    position: relative;
+    height: 100%;
+  }
+  .section-9 .wrapperimg .caruselimg .cardimg img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  .section-9 .wrapperimg .caruselimg::-webkit-scrollbar {
+    display: none;
+  }
+  .section-9 .wrapperimg .caruselimg.draging .card {
+    cursor: grab;
+    user-select: none;
+  }
+  .section-9 .btnsslidImg {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  .section-9 .btnsslidImg .slidBtnImg {
+    padding: 5px;
+    margin-left: 15px;
+    background-color: #cf1311;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
   }
 }
 

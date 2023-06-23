@@ -94,7 +94,7 @@ let isDrag = false,
   startScrollLeft;
 
 let slidBtn = document.querySelectorAll(".btnsslid button");
-console.log(slidBtn);
+
 
 let firstWidth = document.querySelector(".card").offsetWidth;
 slidBtn.forEach(btn => {
@@ -103,8 +103,6 @@ slidBtn.forEach(btn => {
 
 })
 });
-
-
 
 const dragStart = (e) => {
   isDrag = true;
@@ -123,3 +121,51 @@ const dragStop = (e) => {
 carusel.addEventListener("mouseover", draga);
 carusel.addEventListener("mousedown", dragStart);
 document.addEventListener("mouseup", dragStop);
+
+//-----------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+let caruselImg = document.querySelector(".caruselimg");
+let isDragImg = false,
+  startImgX,
+  startImgScrollLeft;
+
+let slidBtnImg = document.querySelectorAll(".btnsslidImg button");
+console.log(slidBtnImg);
+
+let firstWidthImg = document.querySelector(".cardimg").offsetWidth;
+slidBtnImg.forEach(btnimg => {
+  btnimg.addEventListener('click',()=>{
+    caruselImg.scrollLeft += btnimg.id === "slidBtn1Img" ? - firstWidthImg : firstWidthImg;
+
+})
+});
+
+
+
+const dragStartImg = (ev) => {
+  isDragImg = true;
+  caruselImg.classList.add("draging");
+  startImgX = ev.pageX;
+  startImgScrollLeft = caruselImg.scrollLeft;
+};
+const dragaImg = (ev) => {
+  if (!isDragImg) return;
+  caruselImg.scrollLeft = startImgScrollLeft - (ev.pageX - startImgX);
+};
+const dragStopImg = (ev) => {
+  isDragImg = false;
+  caruselImg.classList.remove("draging");
+};
+caruselImg.addEventListener("mouseover", dragaImg);
+caruselImg.addEventListener("mousedown", dragStartImg);
+document.addEventListener("mouseup", dragStopImg);
