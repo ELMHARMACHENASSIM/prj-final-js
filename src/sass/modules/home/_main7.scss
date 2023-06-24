@@ -42,7 +42,50 @@
     }
   }
 }
-
+.section-7.dark {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    .chef {
+      width: 400px;
+    transition: all 0.5s;
+      .chefimg {
+        width: 100%;
+        height: 400px;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .chefinfo {
+        padding: 10px;
+        text-align: center;
+        background-color: $footer-color;
+        h5 {
+          padding-top: 15px;
+          padding-bottom: 5px;
+          font-size: 20px;
+        }
+        span {
+          font-size: 15px;
+          color: rgba(104, 103, 103, 0.693);
+        }
+        p {
+          padding-top: 10px;
+          color: rgba(104, 103, 103, 0.693);
+        }
+      }
+    }
+    .chef:hover{
+      transform: scale(1.1);
+    }
+  }
+}
 @media (max-width: 576px) {
     .section-7 {
         margin-top: 20px;
@@ -68,6 +111,47 @@
               padding: 10px;
               text-align: center;
               background-color: #fff;
+              h5 {
+                padding-top: 15px;
+                padding-bottom: 5px;
+                font-size: 20px;
+              }
+              span {
+                font-size: 15px;
+                color: rgba(104, 103, 103, 0.693);
+              }
+              p {
+                padding-top: 10px;
+                color: rgba(104, 103, 103, 0.693);
+              }
+            }
+          }
+        }
+      }
+      .section-7.dark {
+        margin-top: 20px;
+        width: 100%;
+        .container {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-direction: column;
+          gap: 20px;
+          .chef {
+            width: 400px;
+            transition: all 0.5s;
+            .chefimg {
+              width: 100%;
+              height: 400px;
+              img {
+                width: 100%;
+                height: 100%;
+              }
+            }
+            .chefinfo {
+              padding: 10px;
+              text-align: center;
+              background-color: $footer-color;
               h5 {
                 padding-top: 15px;
                 padding-bottom: 5px;
@@ -112,6 +196,51 @@
               padding: 10px;
               text-align: center;
               background-color: #fff;
+              h5 {
+                padding-top: 15px;
+                padding-bottom: 5px;
+                font-size: 20px;
+              }
+              span {
+                font-size: 15px;
+                color: rgba(104, 103, 103, 0.693);
+              }
+              p {
+                padding-top: 10px;
+                color: rgba(104, 103, 103, 0.693);
+              }
+            }
+          }
+          .chef:hover{
+            transform: scale(1.1);
+          }
+        }
+      }
+      .section-7.dark {
+        margin-top: 20px;
+        width: 100%;
+        height: auto;
+        .container {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-wrap: wrap;
+          gap: 20px;
+          .chef {
+            width: 350px;
+            transition: all 0.5s;
+            .chefimg {
+              width: 100%;
+              height: 400px;
+              img {
+                width: 100%;
+                height: 100%;
+              }
+            }
+            .chefinfo {
+              padding: 10px;
+              text-align: center;
+              background-color: $footer-color;
               h5 {
                 padding-top: 15px;
                 padding-bottom: 5px;
@@ -178,6 +307,50 @@
           }
         }
       }
+      .section-7.dark {
+        margin-top: 20px;
+        width: 100%;
+        height: auto;
+        .container {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          gap: 20px;
+          .chef {
+            width: 400px;
+            transition: all 0.5s;
+            .chefimg {
+              width: 100%;
+              height: 400px;
+              img {
+                width: 100%;
+                height: 100%;
+              }
+            }
+            .chefinfo {
+              padding: 10px;
+              text-align: center;
+              background-color: $footer-color;
+              h5 {
+                padding-top: 15px;
+                padding-bottom: 5px;
+                font-size: 20px;
+              }
+              span {
+                font-size: 15px;
+                color: rgba(104, 103, 103, 0.693);
+              }
+              p {
+                padding-top: 10px;
+                color: rgba(104, 103, 103, 0.693);
+              }
+            }
+          }
+          .chef:hover{
+            transform: scale(1.1);
+          }
+        }
+      }
 }
 @media (min-width: 1200px) {
     .section-7 {
@@ -204,6 +377,50 @@
               padding: 10px;
               text-align: center;
               background-color: #fff;
+              h5 {
+                padding-top: 15px;
+                padding-bottom: 5px;
+                font-size: 20px;
+              }
+              span {
+                font-size: 15px;
+                color: rgba(104, 103, 103, 0.693);
+              }
+              p {
+                padding-top: 10px;
+                color: rgba(104, 103, 103, 0.693);
+              }
+            }
+          }
+          .chef:hover{
+            transform: scale(1.1);
+          }
+        }
+      }
+      .section-7.dark {
+        margin-top: 20px;
+        width: 100%;
+        height: auto;
+        .container {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          gap: 20px;
+          .chef {
+            width: 400px;
+            transition: all 0.5s;
+            .chefimg {
+              width: 100%;
+              height: 400px;
+              img {
+                width: 100%;
+                height: 100%;
+              }
+            }
+            .chefinfo {
+              padding: 10px;
+              text-align: center;
+              background-color: $footer-color;
               h5 {
                 padding-top: 15px;
                 padding-bottom: 5px;

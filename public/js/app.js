@@ -95,13 +95,11 @@ let isDrag = false,
 
 let slidBtn = document.querySelectorAll(".btnsslid button");
 
-
 let firstWidth = document.querySelector(".card").offsetWidth;
-slidBtn.forEach(btn => {
-  btn.addEventListener('click',()=>{
+slidBtn.forEach((btn) => {
+  btn.addEventListener("click", () => {
     carusel.scrollLeft += btn.id === "slidBtn1" ? -firstWidth : firstWidth;
-
-})
+  });
 });
 
 const dragStart = (e) => {
@@ -124,16 +122,6 @@ document.addEventListener("mouseup", dragStop);
 
 //-----------------------------------------------------------
 
-
-
-
-
-
-
-
-
-
-
 let caruselImg = document.querySelector(".caruselimg");
 let isDragImg = false,
   startImgX,
@@ -143,14 +131,12 @@ let slidBtnImg = document.querySelectorAll(".btnsslidImg button");
 console.log(slidBtnImg);
 
 let firstWidthImg = document.querySelector(".cardimg").offsetWidth;
-slidBtnImg.forEach(btnimg => {
-  btnimg.addEventListener('click',()=>{
-    caruselImg.scrollLeft += btnimg.id === "slidBtn1Img" ? - firstWidthImg : firstWidthImg;
-
-})
+slidBtnImg.forEach((btnimg) => {
+  btnimg.addEventListener("click", () => {
+    caruselImg.scrollLeft +=
+      btnimg.id === "slidBtn1Img" ? -firstWidthImg : firstWidthImg;
+  });
 });
-
-
 
 const dragStartImg = (ev) => {
   isDragImg = true;
@@ -171,18 +157,46 @@ caruselImg.addEventListener("mousedown", dragStartImg);
 document.addEventListener("mouseup", dragStopImg);
 
 // --------------------------------------------------------
-let scroll_up = document.querySelector(".up")
+let scroll_up = document.querySelector(".up");
 window.onscroll = function () {
-    if (this.scrollY >= 500) {
-        scroll_up.classList.add("show")
-    } else {
-        scroll_up.classList.remove("show")
-
-    }
-}
+  if (this.scrollY >= 500) {
+    scroll_up.classList.add("show");
+  } else {
+    scroll_up.classList.remove("show");
+  }
+};
 scroll_up.addEventListener("click", () => {
-    window.scrollTo({
-        top: 0,
-        behavior: "smooth",
-    });
-})
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+});
+
+//--------------------------------------------------------------
+let darkBtn = document.querySelector("#darkBtn");
+
+function darkMode() {
+  document.body.classList.toggle("dark");
+  document.querySelector(".main-heading").classList.toggle("dark");
+  document.querySelector(".darkmod").classList.toggle("light");
+  document.querySelector("header").classList.toggle("dark");
+  document.querySelector(".section-1").classList.toggle("dark");
+  document.querySelector(".section-2").classList.toggle("dark");
+  document.querySelector(".section-3").classList.toggle("dark");
+  
+  document.querySelector(".section-4").classList.toggle("dark");
+    
+  document.querySelector(".section-5").classList.toggle("dark");
+  document.querySelector(".section-5 .main-heading").classList.toggle("dark");
+  document.querySelector(".section-6").classList.toggle("dark");
+  document.querySelector(".section-6 .main-heading").classList.toggle("dark");
+  document.querySelector(".section-7").classList.toggle("dark");
+  document.querySelector(".section-7 .main-heading").classList.toggle("dark");
+  document.querySelector(".section-8").classList.toggle("dark");
+  document.querySelector(".section-8 .main-heading").classList.toggle("dark");
+  document.querySelector(".section-9").classList.toggle("dark");
+  document.querySelector(".section-9 .main-heading").classList.toggle("dark");
+  document.querySelector(".section-10").classList.toggle("dark");
+  document.querySelector(".section-10 .main-heading").classList.toggle("dark");
+}
+darkBtn.addEventListener("click", darkMode);
