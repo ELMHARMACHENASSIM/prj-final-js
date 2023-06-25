@@ -8659,25 +8659,25 @@ header.dark .container .mobile-nav {
     color: #fff;
     cursor: pointer;
   }
-  .section-10 {
+  .section-10.dark {
     margin-top: 40px;
     width: 100%;
     background-color: #201f24;
     height: 100%;
   }
-  .section-10 .container {
+  .section-10.dark .container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
-  .section-10 .container .map {
+  .section-10.dark .container .map {
     width: 100%;
   }
-  .section-10 .container .contactdiv {
+  .section-10.dark .container .contactdiv {
     width: 100%;
   }
-  .section-10 .container .contactdiv .contone {
+  .section-10.dark .container .contactdiv .contone {
     margin-top: 40px;
     width: 100%;
     display: flex;
@@ -8685,7 +8685,7 @@ header.dark .container .mobile-nav {
     align-items: center;
     gap: 40px;
   }
-  .section-10 .container .contactdiv .contone .cont {
+  .section-10.dark .container .contactdiv .contone .cont {
     padding: 15px;
     display: flex;
     justify-content: start;
@@ -8694,7 +8694,7 @@ header.dark .container .mobile-nav {
     width: 50%;
     background-color: #201f24;
   }
-  .section-10 .container .contactdiv .contone .cont .icon {
+  .section-10.dark .container .contactdiv .contone .cont .icon {
     border-radius: 50%;
     width: 60px;
     height: 60px;
@@ -8703,27 +8703,27 @@ header.dark .container .mobile-nav {
     justify-content: center;
     align-items: center;
   }
-  .section-10 .container .contactdiv .contone .cont .icon i {
+  .section-10.dark .container .contactdiv .contone .cont .icon i {
     color: #fff;
     font-size: 25px;
   }
-  .section-10 .container .contactdiv .contone .cont .infoico h3 {
+  .section-10.dark .container .contactdiv .contone .cont .infoico h3 {
     font-weight: 400;
   }
-  .section-10 .container .contactdiv .contone .cont .infoico p {
+  .section-10.dark .container .contactdiv .contone .cont .infoico p {
     color: #4a4a4a;
   }
-  .section-10 .container .contactdiv .contone .cont .infoico p span {
+  .section-10.dark .container .contactdiv .contone .cont .infoico p span {
     font-weight: 800;
   }
-  .section-10 .container .contact-us {
+  .section-10.dark .container .contact-us {
     padding: 20px;
     margin-top: 40px;
     width: 100%;
     background-color: #201f24;
     box-shadow: rgba(100, 100, 111, 0.4) 0px 2px 14px 0px;
   }
-  .section-10 .container .contact-us .joujdivat {
+  .section-10.dark .container .contact-us .joujdivat {
     margin-top: 20px;
     width: 100%;
     display: flex;
@@ -8731,7 +8731,7 @@ header.dark .container .mobile-nav {
     align-items: center;
     gap: 30px;
   }
-  .section-10 .container .contact-us .joujdivat input {
+  .section-10.dark .container .contact-us .joujdivat input {
     width: 50%;
     height: 40px;
     padding-left: 10px;
@@ -8739,34 +8739,34 @@ header.dark .container .mobile-nav {
     border: 1px solid rgba(136, 136, 136, 0.5607843137);
     outline: none;
   }
-  .section-10 .container .contact-us .subject {
+  .section-10.dark .container .contact-us .subject {
     width: 100%;
   }
-  .section-10 .container .contact-us .subject input {
+  .section-10.dark .container .contact-us .subject input {
     width: 100%;
     height: 40px;
     margin-top: 30px;
     border: 1px solid rgba(136, 136, 136, 0.5607843137);
     outline: none;
   }
-  .section-10 .container .contact-us .textear {
+  .section-10.dark .container .contact-us .textear {
     width: 100%;
     height: 100px;
   }
-  .section-10 .container .contact-us .textear textarea {
+  .section-10.dark .container .contact-us .textear textarea {
     margin-top: 20px;
     width: 100%;
     height: 100%;
     border: 1px solid rgba(136, 136, 136, 0.5607843137);
     outline: none;
   }
-  .section-10 .container .contact-us .btnsend {
+  .section-10.dark .container .contact-us .btnsend {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .section-10 .container .contact-us .btnsend .sendform {
+  .section-10.dark .container .contact-us .btnsend .sendform {
     width: 150px;
     background-color: #cf1311;
     padding: 20px;
