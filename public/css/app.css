@@ -5899,8 +5899,10 @@ header.dark .container .mobile-nav {
   gap: 20px;
 }
 .section-7 .container .chef {
+  position: relative;
   width: 400px;
   transition: all 0.5s;
+  overflow: hidden;
 }
 .section-7 .container .chef .chefimg {
   width: 100%;
@@ -5927,6 +5929,25 @@ header.dark .container .mobile-nav {
 .section-7 .container .chef .chefinfo p {
   padding-top: 10px;
   color: rgba(104, 103, 103, 0.693);
+}
+.section-7 .container .chef .chef-social {
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.2901960784);
+  position: absolute;
+  top: 10px;
+  right: -50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  transition: all 0.5s;
+}
+.section-7 .container .chef .chef-social i {
+  color: #939393;
+}
+.section-7 .container .chef:hover .chef-social {
+  right: 10px;
 }
 .section-7 .container .chef:hover {
   transform: scale(1.1);
@@ -6019,6 +6040,12 @@ header.dark .container .mobile-nav {
     padding-top: 10px;
     color: rgba(104, 103, 103, 0.693);
   }
+  .section-7 .container .chef:hover .chef-social {
+    right: 50px;
+  }
+  .section-7 .container .chef:hover {
+    transform: scale(1);
+  }
   .section-7.dark {
     margin-top: 20px;
     width: 100%;
@@ -6059,6 +6086,12 @@ header.dark .container .mobile-nav {
   .section-7.dark .container .chef .chefinfo p {
     padding-top: 10px;
     color: rgba(104, 103, 103, 0.693);
+  }
+  .section-7.dark .container .chef:hover .chef-social {
+    right: 50px;
+  }
+  .section-7.dark .container .chef:hover {
+    transform: scale(1);
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {

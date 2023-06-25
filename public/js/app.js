@@ -23,7 +23,7 @@ function openVd() {
 
 function closeVideo() {
   vdContent.classList.remove("show");
-  frameVd.pause();
+  
 }
 watchVd.addEventListener("click", () => {
   openVd();
