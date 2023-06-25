@@ -119,6 +119,7 @@
       gap: 20px;
       .chef {
         width: 400px;
+        overflow: hidden;
         transition: all 0.5s;
         .chefimg {
           width: 100%;
@@ -146,6 +147,22 @@
             color: rgba(104, 103, 103, 0.693);
           }
         }
+        .chef-social {
+          padding: 15px;
+          background-color: #ffffff4a;
+          position: absolute;
+          top: 10px;
+          right: -50px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          gap: 10px;
+          transition: all 0.5s;
+          i {
+            color: #939393;
+          }
+        }
       }
       .chef:hover .chef-social {
         right: 50px;
@@ -166,7 +183,9 @@
       gap: 20px;
       .chef {
         width: 400px;
+        overflow: hidden;
         transition: all 0.5s;
+
         .chefimg {
           width: 100%;
           height: 400px;
@@ -191,6 +210,22 @@
           p {
             padding-top: 10px;
             color: rgba(104, 103, 103, 0.693);
+          }
+        }
+        .chef-social {
+          padding: 15px;
+          background-color: #ffffff4a;
+          position: absolute;
+          top: 10px;
+          right: -50px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          gap: 10px;
+          transition: all 0.5s;
+          i {
+            color: #939393;
           }
         }
       }
@@ -216,6 +251,7 @@
       gap: 20px;
       .chef {
         width: 350px;
+        overflow: hidden;
         transition: all 0.5s;
         .chefimg {
           width: 100%;
@@ -243,6 +279,22 @@
             color: rgba(104, 103, 103, 0.693);
           }
         }
+        .chef-social {
+          padding: 15px;
+          background-color: #ffffff4a;
+          position: absolute;
+          top: 10px;
+          right: -50px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          gap: 10px;
+          transition: all 0.5s;
+          i {
+            color: #939393;
+          }
+        }
       }
       .chef:hover {
         transform: scale(1.1);
@@ -261,6 +313,7 @@
       gap: 20px;
       .chef {
         width: 350px;
+        overflow: hidden;
         transition: all 0.5s;
         .chefimg {
           width: 100%;
@@ -286,6 +339,22 @@
           p {
             padding-top: 10px;
             color: rgba(104, 103, 103, 0.693);
+          }
+        }
+        .chef-social {
+          padding: 15px;
+          background-color: #ffffff4a;
+          position: absolute;
+          top: 10px;
+          right: -50px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          gap: 10px;
+          transition: all 0.5s;
+          i {
+            color: #939393;
           }
         }
       }
@@ -307,6 +376,7 @@
       gap: 20px;
       .chef {
         width: 400px;
+        overflow: hidden;
         transition: all 0.5s;
         .chefimg {
           width: 100%;
@@ -334,6 +404,22 @@
             color: rgba(104, 103, 103, 0.693);
           }
         }
+        .chef-social {
+          padding: 15px;
+          background-color: #ffffff4a;
+          position: absolute;
+          top: 10px;
+          right: -50px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          gap: 10px;
+          transition: all 0.5s;
+          i {
+            color: #939393;
+          }
+        }
       }
       .chef:hover {
         transform: scale(1.1);
@@ -351,6 +437,7 @@
       gap: 20px;
       .chef {
         width: 400px;
+        overflow: hidden;
         transition: all 0.5s;
         .chefimg {
           width: 100%;
@@ -376,6 +463,22 @@
           p {
             padding-top: 10px;
             color: rgba(104, 103, 103, 0.693);
+          }
+        }
+        .chef-social {
+          padding: 15px;
+          background-color: #ffffff4a;
+          position: absolute;
+          top: 10px;
+          right: -50px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          gap: 10px;
+          transition: all 0.5s;
+          i {
+            color: #939393;
           }
         }
       }
@@ -397,6 +500,7 @@
       gap: 20px;
       .chef {
         width: 400px;
+        overflow: hidden;
         transition: all 0.5s;
         .chefimg {
           width: 100%;
@@ -424,6 +528,22 @@
             color: rgba(104, 103, 103, 0.693);
           }
         }
+        .chef-social {
+          padding: 15px;
+          background-color: #ffffff4a;
+          position: absolute;
+          top: 10px;
+          right: -50px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          gap: 10px;
+          transition: all 0.5s;
+          i {
+            color: #939393;
+          }
+        }
       }
       .chef:hover {
         transform: scale(1.1);
@@ -441,6 +561,7 @@
       gap: 20px;
       .chef {
         width: 400px;
+        overflow: hidden;
         transition: all 0.5s;
         .chefimg {
           width: 100%;
@@ -466,6 +587,22 @@
           p {
             padding-top: 10px;
             color: rgba(104, 103, 103, 0.693);
+          }
+        }
+        .chef-social {
+          padding: 15px;
+          background-color: #ffffff4a;
+          position: absolute;
+          top: 10px;
+          right: -50px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          gap: 10px;
+          transition: all 0.5s;
+          i {
+            color: #939393;
           }
         }
       }

@@ -6012,6 +6012,7 @@ header.dark .container .mobile-nav {
   }
   .section-7 .container .chef {
     width: 400px;
+    overflow: hidden;
     transition: all 0.5s;
   }
   .section-7 .container .chef .chefimg {
@@ -6040,6 +6041,22 @@ header.dark .container .mobile-nav {
     padding-top: 10px;
     color: rgba(104, 103, 103, 0.693);
   }
+  .section-7 .container .chef .chef-social {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.2901960784);
+    position: absolute;
+    top: 10px;
+    right: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    transition: all 0.5s;
+  }
+  .section-7 .container .chef .chef-social i {
+    color: #939393;
+  }
   .section-7 .container .chef:hover .chef-social {
     right: 50px;
   }
@@ -6059,6 +6076,7 @@ header.dark .container .mobile-nav {
   }
   .section-7.dark .container .chef {
     width: 400px;
+    overflow: hidden;
     transition: all 0.5s;
   }
   .section-7.dark .container .chef .chefimg {
@@ -6086,6 +6104,22 @@ header.dark .container .mobile-nav {
   .section-7.dark .container .chef .chefinfo p {
     padding-top: 10px;
     color: rgba(104, 103, 103, 0.693);
+  }
+  .section-7.dark .container .chef .chef-social {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.2901960784);
+    position: absolute;
+    top: 10px;
+    right: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    transition: all 0.5s;
+  }
+  .section-7.dark .container .chef .chef-social i {
+    color: #939393;
   }
   .section-7.dark .container .chef:hover .chef-social {
     right: 50px;
@@ -6109,6 +6143,7 @@ header.dark .container .mobile-nav {
   }
   .section-7 .container .chef {
     width: 350px;
+    overflow: hidden;
     transition: all 0.5s;
   }
   .section-7 .container .chef .chefimg {
@@ -6137,6 +6172,22 @@ header.dark .container .mobile-nav {
     padding-top: 10px;
     color: rgba(104, 103, 103, 0.693);
   }
+  .section-7 .container .chef .chef-social {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.2901960784);
+    position: absolute;
+    top: 10px;
+    right: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    transition: all 0.5s;
+  }
+  .section-7 .container .chef .chef-social i {
+    color: #939393;
+  }
   .section-7 .container .chef:hover {
     transform: scale(1.1);
   }
@@ -6154,6 +6205,7 @@ header.dark .container .mobile-nav {
   }
   .section-7.dark .container .chef {
     width: 350px;
+    overflow: hidden;
     transition: all 0.5s;
   }
   .section-7.dark .container .chef .chefimg {
@@ -6181,6 +6233,22 @@ header.dark .container .mobile-nav {
   .section-7.dark .container .chef .chefinfo p {
     padding-top: 10px;
     color: rgba(104, 103, 103, 0.693);
+  }
+  .section-7.dark .container .chef .chef-social {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.2901960784);
+    position: absolute;
+    top: 10px;
+    right: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    transition: all 0.5s;
+  }
+  .section-7.dark .container .chef .chef-social i {
+    color: #939393;
   }
   .section-7.dark .container .chef:hover {
     transform: scale(1.1);
@@ -6200,6 +6268,7 @@ header.dark .container .mobile-nav {
   }
   .section-7 .container .chef {
     width: 400px;
+    overflow: hidden;
     transition: all 0.5s;
   }
   .section-7 .container .chef .chefimg {
@@ -6228,6 +6297,22 @@ header.dark .container .mobile-nav {
     padding-top: 10px;
     color: rgba(104, 103, 103, 0.693);
   }
+  .section-7 .container .chef .chef-social {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.2901960784);
+    position: absolute;
+    top: 10px;
+    right: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    transition: all 0.5s;
+  }
+  .section-7 .container .chef .chef-social i {
+    color: #939393;
+  }
   .section-7 .container .chef:hover {
     transform: scale(1.1);
   }
@@ -6244,6 +6329,7 @@ header.dark .container .mobile-nav {
   }
   .section-7.dark .container .chef {
     width: 400px;
+    overflow: hidden;
     transition: all 0.5s;
   }
   .section-7.dark .container .chef .chefimg {
@@ -6271,6 +6357,22 @@ header.dark .container .mobile-nav {
   .section-7.dark .container .chef .chefinfo p {
     padding-top: 10px;
     color: rgba(104, 103, 103, 0.693);
+  }
+  .section-7.dark .container .chef .chef-social {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.2901960784);
+    position: absolute;
+    top: 10px;
+    right: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    transition: all 0.5s;
+  }
+  .section-7.dark .container .chef .chef-social i {
+    color: #939393;
   }
   .section-7.dark .container .chef:hover {
     transform: scale(1.1);
@@ -6290,6 +6392,7 @@ header.dark .container .mobile-nav {
   }
   .section-7 .container .chef {
     width: 400px;
+    overflow: hidden;
     transition: all 0.5s;
   }
   .section-7 .container .chef .chefimg {
@@ -6318,6 +6421,22 @@ header.dark .container .mobile-nav {
     padding-top: 10px;
     color: rgba(104, 103, 103, 0.693);
   }
+  .section-7 .container .chef .chef-social {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.2901960784);
+    position: absolute;
+    top: 10px;
+    right: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    transition: all 0.5s;
+  }
+  .section-7 .container .chef .chef-social i {
+    color: #939393;
+  }
   .section-7 .container .chef:hover {
     transform: scale(1.1);
   }
@@ -6334,6 +6453,7 @@ header.dark .container .mobile-nav {
   }
   .section-7.dark .container .chef {
     width: 400px;
+    overflow: hidden;
     transition: all 0.5s;
   }
   .section-7.dark .container .chef .chefimg {
@@ -6361,6 +6481,22 @@ header.dark .container .mobile-nav {
   .section-7.dark .container .chef .chefinfo p {
     padding-top: 10px;
     color: rgba(104, 103, 103, 0.693);
+  }
+  .section-7.dark .container .chef .chef-social {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.2901960784);
+    position: absolute;
+    top: 10px;
+    right: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    transition: all 0.5s;
+  }
+  .section-7.dark .container .chef .chef-social i {
+    color: #939393;
   }
   .section-7.dark .container .chef:hover {
     transform: scale(1.1);
