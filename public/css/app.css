@@ -255,6 +255,137 @@ header .container .mobile-nav {
   font-size: 20px;
   display: none;
 }
+header .log-Fixed {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.514);
+  backdrop-filter: blur(5px);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+header .log-Fixed .content {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+  background-color: #fff;
+  position: relative;
+}
+header .log-Fixed .content #closeLogin {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  color: #cf1311;
+  font-size: 20px;
+}
+header .log-Fixed .content .span1 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+header .log-Fixed .content .span1 span {
+  padding: 5px;
+  border-bottom: 3px solid rgba(63, 63, 63, 0.422);
+  cursor: pointer;
+}
+header .log-Fixed .content .span1 .btn1.active {
+  border-bottom: 3px solid #cf1311;
+}
+header .log-Fixed .content .span1 .btn2.active {
+  border-bottom: 3px solid #cf1311;
+}
+header .log-Fixed .content .cont-one {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+header .log-Fixed .content .cont-one form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+header .log-Fixed .content .cont-one form input {
+  width: 100%;
+  height: 40px;
+  padding-left: 5px;
+  margin-top: 20px;
+  border: 1px solid rgba(136, 136, 136, 0.5607843137);
+  outline: none;
+}
+header .log-Fixed .content .cont-one form a {
+  margin-top: 10px;
+  color: blue;
+  background: none;
+  text-decoration: underline;
+}
+header .log-Fixed .content .cont-one form button {
+  margin-top: 10px;
+  background-color: #cf1311;
+  color: #fff;
+  padding: 10px 15px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+header .log-Fixed .content .cont-one form .socialconnet {
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+header .log-Fixed .content .cont-one form .socialconnet h2 {
+  font-size: 16px;
+  font-weight: 400;
+}
+header .log-Fixed .content .cont-one form .socialconnet .ticon {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+header .log-Fixed .content .cont-one form .socialconnet .ticon i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cf1311;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+  color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+header .log-Fixed .content .div-content1 {
+  display: none;
+}
+header .log-Fixed .content .div-content1.show {
+  display: block;
+}
+header .log-Fixed .content .div-content2 {
+  display: none;
+}
+header .log-Fixed .content .div-content2.show {
+  display: block;
+}
+header .log-Fixed.hide {
+  display: flex;
+}
 
 header.dark {
   position: fixed;
@@ -366,12 +497,144 @@ header.dark .container .mobile-nav {
   font-size: 20px;
   display: none;
 }
+header.dark .log-Fixed {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.514);
+  backdrop-filter: blur(5px);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+header.dark .log-Fixed .content {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+  background-color: #201f24;
+  position: relative;
+}
+header.dark .log-Fixed .content #closeLogin {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  color: #cf1311;
+  font-size: 20px;
+}
+header.dark .log-Fixed .content .span1 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+header.dark .log-Fixed .content .span1 span {
+  padding: 5px;
+  border-bottom: 3px solid rgba(63, 63, 63, 0.422);
+  cursor: pointer;
+}
+header.dark .log-Fixed .content .span1 .btn1.active {
+  border-bottom: 3px solid #cf1311;
+}
+header.dark .log-Fixed .content .span1 .btn2.active {
+  border-bottom: 3px solid #cf1311;
+}
+header.dark .log-Fixed .content .cont-one {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+header.dark .log-Fixed .content .cont-one form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+header.dark .log-Fixed .content .cont-one form input {
+  width: 100%;
+  height: 40px;
+  padding-left: 5px;
+  margin-top: 20px;
+  border: 1px solid rgba(136, 136, 136, 0.5607843137);
+  outline: none;
+}
+header.dark .log-Fixed .content .cont-one form a {
+  margin-top: 10px;
+  color: #fff;
+  background: none;
+  text-decoration: underline;
+}
+header.dark .log-Fixed .content .cont-one form button {
+  margin-top: 10px;
+  background-color: #cf1311;
+  color: #fff;
+  padding: 10px 15px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+header.dark .log-Fixed .content .cont-one form .socialconnet {
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+header.dark .log-Fixed .content .cont-one form .socialconnet h2 {
+  font-size: 16px;
+  font-weight: 400;
+}
+header.dark .log-Fixed .content .cont-one form .socialconnet .ticon {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+header.dark .log-Fixed .content .cont-one form .socialconnet .ticon i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cf1311;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+  color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+header.dark .log-Fixed .content .div-content1 {
+  display: none;
+}
+header.dark .log-Fixed .content .div-content1.show {
+  display: block;
+}
+header.dark .log-Fixed .content .div-content2 {
+  display: none;
+}
+header.dark .log-Fixed .content .div-content2.show {
+  display: block;
+}
+header.dark .log-Fixed.hide {
+  display: flex;
+}
 
 @media (max-width: 576px) {
   header .container .listes {
     display: none;
   }
   header .container .title-nav {
+    margin-right: 15px;
     width: auto;
     font-size: 20px;
     cursor: pointer;
@@ -452,6 +715,137 @@ header.dark .container .mobile-nav {
     margin-left: 5px;
     top: 50%;
     transform: translateY(-50%);
+  }
+  header .log-Fixed {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.514);
+    backdrop-filter: blur(5px);
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  header .log-Fixed .content {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    background-color: #fff;
+    position: relative;
+  }
+  header .log-Fixed .content #closeLogin {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    color: #cf1311;
+    font-size: 20px;
+  }
+  header .log-Fixed .content .span1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  header .log-Fixed .content .span1 span {
+    padding: 5px;
+    border-bottom: 3px solid rgba(63, 63, 63, 0.422);
+    cursor: pointer;
+  }
+  header .log-Fixed .content .span1 .btn1.active {
+    border-bottom: 3px solid #cf1311;
+  }
+  header .log-Fixed .content .span1 .btn2.active {
+    border-bottom: 3px solid #cf1311;
+  }
+  header .log-Fixed .content .cont-one {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+  }
+  header .log-Fixed .content .cont-one form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  header .log-Fixed .content .cont-one form input {
+    width: 100%;
+    height: 40px;
+    padding-left: 5px;
+    margin-top: 20px;
+    border: 1px solid rgba(136, 136, 136, 0.5607843137);
+    outline: none;
+  }
+  header .log-Fixed .content .cont-one form a {
+    margin-top: 10px;
+    color: blue;
+    background: none;
+    text-decoration: underline;
+  }
+  header .log-Fixed .content .cont-one form button {
+    margin-top: 10px;
+    background-color: #cf1311;
+    color: #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+  }
+  header .log-Fixed .content .cont-one form .socialconnet {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  header .log-Fixed .content .cont-one form .socialconnet h2 {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  header .log-Fixed .content .cont-one form .socialconnet .ticon {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  header .log-Fixed .content .cont-one form .socialconnet .ticon i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cf1311;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  header .log-Fixed .content .div-content1 {
+    display: none;
+  }
+  header .log-Fixed .content .div-content1.show {
+    display: block;
+  }
+  header .log-Fixed .content .div-content2 {
+    display: none;
+  }
+  header .log-Fixed .content .div-content2.show {
+    display: block;
+  }
+  header .log-Fixed.hide {
+    display: flex;
   }
   header.dark .container .listes {
     display: none;
@@ -537,6 +931,137 @@ header.dark .container .mobile-nav {
     margin-left: 5px;
     top: 50%;
     transform: translateY(-50%);
+  }
+  header.dark .log-Fixed {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.514);
+    backdrop-filter: blur(5px);
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  header.dark .log-Fixed .content {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    background-color: #201f24;
+    position: relative;
+  }
+  header.dark .log-Fixed .content #closeLogin {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    color: #cf1311;
+    font-size: 20px;
+  }
+  header.dark .log-Fixed .content .span1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  header.dark .log-Fixed .content .span1 span {
+    padding: 5px;
+    border-bottom: 3px solid rgba(63, 63, 63, 0.422);
+    cursor: pointer;
+  }
+  header.dark .log-Fixed .content .span1 .btn1.active {
+    border-bottom: 3px solid #cf1311;
+  }
+  header.dark .log-Fixed .content .span1 .btn2.active {
+    border-bottom: 3px solid #cf1311;
+  }
+  header.dark .log-Fixed .content .cont-one {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+  }
+  header.dark .log-Fixed .content .cont-one form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  header.dark .log-Fixed .content .cont-one form input {
+    width: 100%;
+    height: 40px;
+    padding-left: 5px;
+    margin-top: 20px;
+    border: 1px solid rgba(136, 136, 136, 0.5607843137);
+    outline: none;
+  }
+  header.dark .log-Fixed .content .cont-one form a {
+    margin-top: 10px;
+    color: #fff;
+    background: none;
+    text-decoration: underline;
+  }
+  header.dark .log-Fixed .content .cont-one form button {
+    margin-top: 10px;
+    background-color: #cf1311;
+    color: #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+  }
+  header.dark .log-Fixed .content .cont-one form .socialconnet {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  header.dark .log-Fixed .content .cont-one form .socialconnet h2 {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  header.dark .log-Fixed .content .cont-one form .socialconnet .ticon {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  header.dark .log-Fixed .content .cont-one form .socialconnet .ticon i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cf1311;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  header.dark .log-Fixed .content .div-content1 {
+    display: none;
+  }
+  header.dark .log-Fixed .content .div-content1.show {
+    display: block;
+  }
+  header.dark .log-Fixed .content .div-content2 {
+    display: none;
+  }
+  header.dark .log-Fixed .content .div-content2.show {
+    display: block;
+  }
+  header.dark .log-Fixed.hide {
+    display: flex;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -708,6 +1233,137 @@ header.dark .container .mobile-nav {
     top: 50%;
     transform: translateY(-50%);
   }
+  header.dark .log-Fixed {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.514);
+    backdrop-filter: blur(5px);
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  header.dark .log-Fixed .content {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    background-color: #201f24;
+    position: relative;
+  }
+  header.dark .log-Fixed .content #closeLogin {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    color: #cf1311;
+    font-size: 20px;
+  }
+  header.dark .log-Fixed .content .span1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  header.dark .log-Fixed .content .span1 span {
+    padding: 5px;
+    border-bottom: 3px solid rgba(63, 63, 63, 0.422);
+    cursor: pointer;
+  }
+  header.dark .log-Fixed .content .span1 .btn1.active {
+    border-bottom: 3px solid #cf1311;
+  }
+  header.dark .log-Fixed .content .span1 .btn2.active {
+    border-bottom: 3px solid #cf1311;
+  }
+  header.dark .log-Fixed .content .cont-one {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+  }
+  header.dark .log-Fixed .content .cont-one form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  header.dark .log-Fixed .content .cont-one form input {
+    width: 100%;
+    height: 40px;
+    padding-left: 5px;
+    margin-top: 20px;
+    border: 1px solid rgba(136, 136, 136, 0.5607843137);
+    outline: none;
+  }
+  header.dark .log-Fixed .content .cont-one form a {
+    margin-top: 10px;
+    color: #fff;
+    background: none;
+    text-decoration: underline;
+  }
+  header.dark .log-Fixed .content .cont-one form button {
+    margin-top: 10px;
+    background-color: #cf1311;
+    color: #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+  }
+  header.dark .log-Fixed .content .cont-one form .socialconnet {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  header.dark .log-Fixed .content .cont-one form .socialconnet h2 {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  header.dark .log-Fixed .content .cont-one form .socialconnet .ticon {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  header.dark .log-Fixed .content .cont-one form .socialconnet .ticon i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cf1311;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  header.dark .log-Fixed .content .div-content1 {
+    display: none;
+  }
+  header.dark .log-Fixed .content .div-content1.show {
+    display: block;
+  }
+  header.dark .log-Fixed .content .div-content2 {
+    display: none;
+  }
+  header.dark .log-Fixed .content .div-content2.show {
+    display: block;
+  }
+  header.dark .log-Fixed.hide {
+    display: flex;
+  }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   header .container .title-nav {
@@ -822,7 +1478,7 @@ header.dark .container .mobile-nav {
   header.dark .container .listes .nav-list a {
     font-size: 16px;
     font-weight: 500;
-    color: black;
+    color: #fff;
   }
   header.dark .container .listes .nav-list::before {
     content: "";
@@ -897,6 +1553,137 @@ header.dark .container .mobile-nav {
     cursor: pointer;
     font-size: 20px;
     display: none;
+  }
+  header.dark .log-Fixed {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.514);
+    backdrop-filter: blur(5px);
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  header.dark .log-Fixed .content {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    background-color: #201f24;
+    position: relative;
+  }
+  header.dark .log-Fixed .content #closeLogin {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    color: #cf1311;
+    font-size: 20px;
+  }
+  header.dark .log-Fixed .content .span1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  header.dark .log-Fixed .content .span1 span {
+    padding: 5px;
+    border-bottom: 3px solid rgba(63, 63, 63, 0.422);
+    cursor: pointer;
+  }
+  header.dark .log-Fixed .content .span1 .btn1.active {
+    border-bottom: 3px solid #cf1311;
+  }
+  header.dark .log-Fixed .content .span1 .btn2.active {
+    border-bottom: 3px solid #cf1311;
+  }
+  header.dark .log-Fixed .content .cont-one {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+  }
+  header.dark .log-Fixed .content .cont-one form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  header.dark .log-Fixed .content .cont-one form input {
+    width: 100%;
+    height: 40px;
+    padding-left: 5px;
+    margin-top: 20px;
+    border: 1px solid rgba(136, 136, 136, 0.5607843137);
+    outline: none;
+  }
+  header.dark .log-Fixed .content .cont-one form a {
+    margin-top: 10px;
+    color: #fff;
+    background: none;
+    text-decoration: underline;
+  }
+  header.dark .log-Fixed .content .cont-one form button {
+    margin-top: 10px;
+    background-color: #cf1311;
+    color: #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+  }
+  header.dark .log-Fixed .content .cont-one form .socialconnet {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  header.dark .log-Fixed .content .cont-one form .socialconnet h2 {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  header.dark .log-Fixed .content .cont-one form .socialconnet .ticon {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  header.dark .log-Fixed .content .cont-one form .socialconnet .ticon i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cf1311;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  header.dark .log-Fixed .content .div-content1 {
+    display: none;
+  }
+  header.dark .log-Fixed .content .div-content1.show {
+    display: block;
+  }
+  header.dark .log-Fixed .content .div-content2 {
+    display: none;
+  }
+  header.dark .log-Fixed .content .div-content2.show {
+    display: block;
+  }
+  header.dark .log-Fixed.hide {
+    display: flex;
   }
 }
 @media (min-width: 1200px) {
@@ -1140,6 +1927,137 @@ header.dark .container .mobile-nav {
     font-size: 20px;
     display: none;
   }
+  header.dark .log-Fixed {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.514);
+    backdrop-filter: blur(5px);
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  header.dark .log-Fixed .content {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    background-color: #201f24;
+    position: relative;
+  }
+  header.dark .log-Fixed .content #closeLogin {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    color: #cf1311;
+    font-size: 20px;
+  }
+  header.dark .log-Fixed .content .span1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  header.dark .log-Fixed .content .span1 span {
+    padding: 5px;
+    border-bottom: 3px solid rgba(63, 63, 63, 0.422);
+    cursor: pointer;
+  }
+  header.dark .log-Fixed .content .span1 .btn1.active {
+    border-bottom: 3px solid #cf1311;
+  }
+  header.dark .log-Fixed .content .span1 .btn2.active {
+    border-bottom: 3px solid #cf1311;
+  }
+  header.dark .log-Fixed .content .cont-one {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+  }
+  header.dark .log-Fixed .content .cont-one form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  header.dark .log-Fixed .content .cont-one form input {
+    width: 100%;
+    height: 40px;
+    padding-left: 5px;
+    margin-top: 20px;
+    border: 1px solid rgba(136, 136, 136, 0.5607843137);
+    outline: none;
+  }
+  header.dark .log-Fixed .content .cont-one form a {
+    margin-top: 10px;
+    color: #fff;
+    background: none;
+    text-decoration: underline;
+  }
+  header.dark .log-Fixed .content .cont-one form button {
+    margin-top: 10px;
+    background-color: #cf1311;
+    color: #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+  }
+  header.dark .log-Fixed .content .cont-one form .socialconnet {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  header.dark .log-Fixed .content .cont-one form .socialconnet h2 {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  header.dark .log-Fixed .content .cont-one form .socialconnet .ticon {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  header.dark .log-Fixed .content .cont-one form .socialconnet .ticon i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cf1311;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  header.dark .log-Fixed .content .div-content1 {
+    display: none;
+  }
+  header.dark .log-Fixed .content .div-content1.show {
+    display: block;
+  }
+  header.dark .log-Fixed .content .div-content2 {
+    display: none;
+  }
+  header.dark .log-Fixed .content .div-content2.show {
+    display: block;
+  }
+  header.dark .log-Fixed.hide {
+    display: flex;
+  }
 }
 @media (min-width: 1400px) {
   header {
@@ -1272,6 +2190,137 @@ header.dark .container .mobile-nav {
     font-size: 20px;
     display: none;
   }
+  header .log-Fixed {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.514);
+    backdrop-filter: blur(5px);
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  header .log-Fixed .content {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    background-color: #fff;
+    position: relative;
+  }
+  header .log-Fixed .content #closeLogin {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    color: #cf1311;
+    font-size: 20px;
+  }
+  header .log-Fixed .content .span1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  header .log-Fixed .content .span1 span {
+    padding: 5px;
+    border-bottom: 3px solid rgba(63, 63, 63, 0.422);
+    cursor: pointer;
+  }
+  header .log-Fixed .content .span1 .btn1.active {
+    border-bottom: 3px solid #cf1311;
+  }
+  header .log-Fixed .content .span1 .btn2.active {
+    border-bottom: 3px solid #cf1311;
+  }
+  header .log-Fixed .content .cont-one {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+  }
+  header .log-Fixed .content .cont-one form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  header .log-Fixed .content .cont-one form input {
+    width: 100%;
+    height: 40px;
+    padding-left: 5px;
+    margin-top: 20px;
+    border: 1px solid rgba(136, 136, 136, 0.5607843137);
+    outline: none;
+  }
+  header .log-Fixed .content .cont-one form a {
+    margin-top: 10px;
+    color: blue;
+    background: none;
+    text-decoration: underline;
+  }
+  header .log-Fixed .content .cont-one form button {
+    margin-top: 10px;
+    background-color: #cf1311;
+    color: #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+  }
+  header .log-Fixed .content .cont-one form .socialconnet {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  header .log-Fixed .content .cont-one form .socialconnet h2 {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  header .log-Fixed .content .cont-one form .socialconnet .ticon {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  header .log-Fixed .content .cont-one form .socialconnet .ticon i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cf1311;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  header .log-Fixed .content .div-content1 {
+    display: none;
+  }
+  header .log-Fixed .content .div-content1.show {
+    display: block;
+  }
+  header .log-Fixed .content .div-content2 {
+    display: none;
+  }
+  header .log-Fixed .content .div-content2.show {
+    display: block;
+  }
+  header .log-Fixed.hide {
+    display: flex;
+  }
   header.dark {
     position: fixed;
     top: 0;
@@ -1381,6 +2430,137 @@ header.dark .container .mobile-nav {
     cursor: pointer;
     font-size: 20px;
     display: none;
+  }
+  header.dark .log-Fixed {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.514);
+    backdrop-filter: blur(5px);
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  header.dark .log-Fixed .content {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    background-color: #201f24;
+    position: relative;
+  }
+  header.dark .log-Fixed .content #closeLogin {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    color: #cf1311;
+    font-size: 20px;
+  }
+  header.dark .log-Fixed .content .span1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  header.dark .log-Fixed .content .span1 span {
+    padding: 5px;
+    border-bottom: 3px solid rgba(63, 63, 63, 0.422);
+    cursor: pointer;
+  }
+  header.dark .log-Fixed .content .span1 .btn1.active {
+    border-bottom: 3px solid #cf1311;
+  }
+  header.dark .log-Fixed .content .span1 .btn2.active {
+    border-bottom: 3px solid #cf1311;
+  }
+  header.dark .log-Fixed .content .cont-one {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+  }
+  header.dark .log-Fixed .content .cont-one form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  header.dark .log-Fixed .content .cont-one form input {
+    width: 100%;
+    height: 40px;
+    padding-left: 5px;
+    margin-top: 20px;
+    border: 1px solid rgba(136, 136, 136, 0.5607843137);
+    outline: none;
+  }
+  header.dark .log-Fixed .content .cont-one form a {
+    margin-top: 10px;
+    color: #fff;
+    background: none;
+    text-decoration: underline;
+  }
+  header.dark .log-Fixed .content .cont-one form button {
+    margin-top: 10px;
+    background-color: #cf1311;
+    color: #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+  }
+  header.dark .log-Fixed .content .cont-one form .socialconnet {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  header.dark .log-Fixed .content .cont-one form .socialconnet h2 {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  header.dark .log-Fixed .content .cont-one form .socialconnet .ticon {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  header.dark .log-Fixed .content .cont-one form .socialconnet .ticon i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cf1311;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  header.dark .log-Fixed .content .div-content1 {
+    display: none;
+  }
+  header.dark .log-Fixed .content .div-content1.show {
+    display: block;
+  }
+  header.dark .log-Fixed .content .div-content2 {
+    display: none;
+  }
+  header.dark .log-Fixed .content .div-content2.show {
+    display: block;
+  }
+  header.dark .log-Fixed.hide {
+    display: flex;
   }
 }
 .section-1 {

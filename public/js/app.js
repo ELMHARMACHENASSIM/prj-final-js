@@ -200,3 +200,16 @@ function darkMode() {
   document.querySelector(".section-10 .main-heading").classList.toggle("dark");
 }
 darkBtn.addEventListener("click", darkMode);
+// ------------------------------------------------------------------------------
+let openLogin = document.querySelector("#openLogin");
+let closeLogin = document.querySelector("#closeLogin");
+let contentForm = document.querySelector(".log-Fixed");
+function openForm() {
+  contentForm.classList.add("hide");
+
+}
+function closeForm() {
+  contentForm.classList.remove("hide");
+}
+openLogin.addEventListener('click',openForm);
+closeLogin.addEventListener('click',closeForm);

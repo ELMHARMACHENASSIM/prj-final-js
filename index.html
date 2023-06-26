@@ -18,9 +18,9 @@
     <div class="bgspan">
         <span class="up">
             <i class="fa-solid fa-arrow-up"></i>
-        </span> 
+        </span>
     </div>
-   
+
     <header>
         <div class="container">
             <h1 class="title-nav">LionsResto.</h1>
@@ -46,8 +46,46 @@
                 <i class="fa-solid fa-moon" id="darkBtn"></i>
             </div>
             <div class="connexion">
-                <a href="#">Connexion</a>
+                <a href="#" id="openLogin">Connexion</a>
+                <div class="log-Fixed">
+                    <div class="content">
+                        <i class="fa-solid fa-xmark" id="closeLogin"></i>
+                        <div class="span1">
+                            <span class="btn1 active">Sign in</span>
+                            <span class="btn2" ">Sign up</span>
+                        </div>              
+                        <div class=" cont-one div-content1 show">
+                                <form action="">
+                                    <input type="email" placeholder="Email">
+                                    <input type="password" placeholder="Password">
+                                    <a href="">Reset your password ?</a>
+                                    <button type="submit">Sign in</button>
+                                    <div class="socialconnet">
+                                        <h2>&#8213;&#8213; Or &#8213;&#8213;</h2>
+                                        <div class="ticon">
+                                            <i class="fa-brands fa-google"></i>
+                                            <i class="fa-brands fa-facebook-f"></i>
+                                            <i class="fa-brands fa-twitter"></i>
+                                        </div>
+
+
+                                    </div>
+                                </form>
+
+                        </div>
+                        <div class="cont-one div-content2">
+                            <form action="">
+                                <input type="text" placeholder="Full Name">
+                                <input type="email" placeholder="Email">
+                                <input type="password" placeholder="Password">
+                                <input type="password" placeholder="Confirm Password">
+                                <button type="submit">Sign up</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </div>
+
             <!-- for media query mobil and tablet -->
             <div class="mobile-nav">
                 <i class="fa-solid fa-bars" id="open"></i>
@@ -79,6 +117,10 @@
         </div>
     </header>
     <!-- finish header -->
+
+
+
+
     <!-- start main section -->
     <div class="section-1" id="home">
         <div class="container">
@@ -624,7 +666,7 @@
             <div class="chef">
                 <div class="chefimg">
                     <img src="./public/img/chefs/chefs-1.jpg" alt="" srcset="">
-                </div>            
+                </div>
                 <div class="chefinfo">
                     <h5>Walter White</h5>
                     <span>Master Chef</span>
@@ -853,7 +895,7 @@
                     </div>
                 </div>
                 <div class="foot">
-                   
+
                     <div class="infofoot">
                         <h3>Follow Us</h3>
                         <div class="social-icon">
@@ -873,7 +915,7 @@
     </footer>
     <!-- end footer -->
 
-<!-- finish  -->
+    <!-- finish  -->
 
     <script src="./public/js/app.js"></script>
 </body>
