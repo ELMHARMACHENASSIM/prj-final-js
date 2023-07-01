@@ -7085,12 +7085,22 @@ header.dark .log-Fixed.hide {
   overflow: hidden;
 }
 .section-7 .container .chef .chefimg {
+  position: relative;
   width: 100%;
   height: 400px;
 }
 .section-7 .container .chef .chefimg img {
   width: 100%;
   height: 100%;
+}
+.section-7 .container .chef .chefimg svg {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 10;
+  bottom: -2px;
+  left: 0;
+  fill: #fffefe;
 }
 .section-7 .container .chef .chefinfo {
   padding: 10px;
@@ -7156,6 +7166,15 @@ header.dark .log-Fixed.hide {
   width: 100%;
   height: 100%;
 }
+.section-7.dark .container .chef .chefimg svg {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 10;
+  bottom: -2px;
+  left: 0;
+  fill: #201f24;
+}
 .section-7.dark .container .chef .chefinfo {
   padding: 10px;
   text-align: center;
@@ -7173,6 +7192,25 @@ header.dark .log-Fixed.hide {
 .section-7.dark .container .chef .chefinfo p {
   padding-top: 10px;
   color: rgba(104, 103, 103, 0.693);
+}
+.section-7.dark .container .chef .chef-social {
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.2901960784);
+  position: absolute;
+  top: 10px;
+  right: -50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  transition: all 0.5s;
+}
+.section-7.dark .container .chef .chef-social i {
+  color: #939393;
+}
+.section-7.dark .container .chef:hover .chef-social {
+  right: 10px;
 }
 .section-7.dark .container .chef:hover {
   transform: scale(1.1);
@@ -7202,6 +7240,15 @@ header.dark .log-Fixed.hide {
   .section-7 .container .chef .chefimg img {
     width: 100%;
     height: 100%;
+  }
+  .section-7 .container .chef .chefimg svg {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 10;
+    bottom: -2px;
+    left: 0;
+    fill: #fffefe;
   }
   .section-7 .container .chef .chefinfo {
     padding: 10px;
@@ -7266,6 +7313,15 @@ header.dark .log-Fixed.hide {
   .section-7.dark .container .chef .chefimg img {
     width: 100%;
     height: 100%;
+  }
+  .section-7.dark .container .chef .chefimg svg {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 10;
+    bottom: -2px;
+    left: 0;
+    fill: #201f24;
   }
   .section-7.dark .container .chef .chefinfo {
     padding: 10px;
@@ -7334,6 +7390,15 @@ header.dark .log-Fixed.hide {
     width: 100%;
     height: 100%;
   }
+  .section-7 .container .chef .chefimg svg {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 10;
+    bottom: -2px;
+    left: 0;
+    fill: #fffefe;
+  }
   .section-7 .container .chef .chefinfo {
     padding: 10px;
     text-align: center;
@@ -7368,6 +7433,9 @@ header.dark .log-Fixed.hide {
   .section-7 .container .chef .chef-social i {
     color: #939393;
   }
+  .section-7 .container .chef:hover .chef-social {
+    right: 50px;
+  }
   .section-7 .container .chef:hover {
     transform: scale(1.1);
   }
@@ -7395,6 +7463,15 @@ header.dark .log-Fixed.hide {
   .section-7.dark .container .chef .chefimg img {
     width: 100%;
     height: 100%;
+  }
+  .section-7.dark .container .chef .chefimg svg {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 10;
+    bottom: -2px;
+    left: 0;
+    fill: #201f24;
   }
   .section-7.dark .container .chef .chefinfo {
     padding: 10px;
@@ -7429,6 +7506,9 @@ header.dark .log-Fixed.hide {
   }
   .section-7.dark .container .chef .chef-social i {
     color: #939393;
+  }
+  .section-7.dark .container .chef:hover .chef-social {
+    right: 50px;
   }
   .section-7.dark .container .chef:hover {
     transform: scale(1.1);
@@ -7459,6 +7539,15 @@ header.dark .log-Fixed.hide {
     width: 100%;
     height: 100%;
   }
+  .section-7 .container .chef .chefimg svg {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 10;
+    bottom: -2px;
+    left: 0;
+    fill: #fffefe;
+  }
   .section-7 .container .chef .chefinfo {
     padding: 10px;
     text-align: center;
@@ -7493,6 +7582,9 @@ header.dark .log-Fixed.hide {
   .section-7 .container .chef .chef-social i {
     color: #939393;
   }
+  .section-7 .container .chef:hover .chef-social {
+    right: 50px;
+  }
   .section-7 .container .chef:hover {
     transform: scale(1.1);
   }
@@ -7519,6 +7611,15 @@ header.dark .log-Fixed.hide {
   .section-7.dark .container .chef .chefimg img {
     width: 100%;
     height: 100%;
+  }
+  .section-7.dark .container .chef .chefimg svg {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 10;
+    bottom: -2px;
+    left: 0;
+    fill: #201f24;
   }
   .section-7.dark .container .chef .chefinfo {
     padding: 10px;
@@ -7553,6 +7654,9 @@ header.dark .log-Fixed.hide {
   }
   .section-7.dark .container .chef .chef-social i {
     color: #939393;
+  }
+  .section-7.dark .container .chef:hover .chef-social {
+    right: 50px;
   }
   .section-7.dark .container .chef:hover {
     transform: scale(1.1);
@@ -7583,6 +7687,15 @@ header.dark .log-Fixed.hide {
     width: 100%;
     height: 100%;
   }
+  .section-7 .container .chef .chefimg svg {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 10;
+    bottom: -2px;
+    left: 0;
+    fill: #fffefe;
+  }
   .section-7 .container .chef .chefinfo {
     padding: 10px;
     text-align: center;
@@ -7617,6 +7730,9 @@ header.dark .log-Fixed.hide {
   .section-7 .container .chef .chef-social i {
     color: #939393;
   }
+  .section-7 .container .chef:hover .chef-social {
+    right: 50px;
+  }
   .section-7 .container .chef:hover {
     transform: scale(1.1);
   }
@@ -7643,6 +7759,15 @@ header.dark .log-Fixed.hide {
   .section-7.dark .container .chef .chefimg img {
     width: 100%;
     height: 100%;
+  }
+  .section-7.dark .container .chef .chefimg svg {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 10;
+    bottom: -2px;
+    left: 0;
+    fill: #201f24;
   }
   .section-7.dark .container .chef .chefinfo {
     padding: 10px;
@@ -7677,6 +7802,9 @@ header.dark .log-Fixed.hide {
   }
   .section-7.dark .container .chef .chef-social i {
     color: #939393;
+  }
+  .section-7.dark .container .chef:hover .chef-social {
+    right: 50px;
   }
   .section-7.dark .container .chef:hover {
     transform: scale(1.1);
