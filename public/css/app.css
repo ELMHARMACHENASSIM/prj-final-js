@@ -7140,7 +7140,7 @@ header.dark .log-Fixed.hide {
   right: 10px;
 }
 .section-7 .container .chef:hover {
-  transform: scale(1.1);
+  transform: scale(1.06);
 }
 
 .section-7.dark {
@@ -7213,7 +7213,7 @@ header.dark .log-Fixed.hide {
   right: 10px;
 }
 .section-7.dark .container .chef:hover {
-  transform: scale(1.1);
+  transform: scale(1.06);
 }
 
 @media (max-width: 576px) {
@@ -7434,10 +7434,10 @@ header.dark .log-Fixed.hide {
     color: #939393;
   }
   .section-7 .container .chef:hover .chef-social {
-    right: 50px;
+    right: 10px;
   }
   .section-7 .container .chef:hover {
-    transform: scale(1.1);
+    transform: scale(1.06);
   }
   .section-7.dark {
     margin-top: 20px;
@@ -7508,10 +7508,10 @@ header.dark .log-Fixed.hide {
     color: #939393;
   }
   .section-7.dark .container .chef:hover .chef-social {
-    right: 50px;
+    right: 10px;
   }
   .section-7.dark .container .chef:hover {
-    transform: scale(1.1);
+    transform: scale(1.06);
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -7583,10 +7583,10 @@ header.dark .log-Fixed.hide {
     color: #939393;
   }
   .section-7 .container .chef:hover .chef-social {
-    right: 50px;
+    right: 10px;
   }
   .section-7 .container .chef:hover {
-    transform: scale(1.1);
+    transform: scale(1.06);
   }
   .section-7.dark {
     margin-top: 20px;
@@ -7656,10 +7656,10 @@ header.dark .log-Fixed.hide {
     color: #939393;
   }
   .section-7.dark .container .chef:hover .chef-social {
-    right: 50px;
+    right: 10px;
   }
   .section-7.dark .container .chef:hover {
-    transform: scale(1.1);
+    transform: scale(1.06);
   }
 }
 @media (min-width: 1200px) {
@@ -7731,10 +7731,10 @@ header.dark .log-Fixed.hide {
     color: #939393;
   }
   .section-7 .container .chef:hover .chef-social {
-    right: 50px;
+    right: 10px;
   }
   .section-7 .container .chef:hover {
-    transform: scale(1.1);
+    transform: scale(1.06);
   }
   .section-7.dark {
     margin-top: 20px;
@@ -7804,10 +7804,10 @@ header.dark .log-Fixed.hide {
     color: #939393;
   }
   .section-7.dark .container .chef:hover .chef-social {
-    right: 50px;
+    right: 10px;
   }
   .section-7.dark .container .chef:hover {
-    transform: scale(1.1);
+    transform: scale(1.06);
   }
 }
 .section-8 {

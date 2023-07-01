@@ -69,7 +69,7 @@
       right: 10px;
     }
     .chef:hover {
-      transform: scale(1.1);
+      transform: scale(1.06);
     }
   }
 }
@@ -142,7 +142,7 @@
       right: 10px;
     }
     .chef:hover {
-      transform: scale(1.1);
+      transform: scale(1.06);
     }
   }
 }
@@ -363,10 +363,10 @@
         }
       }
       .chef:hover .chef-social {
-        right: 50px;
+        right: 10px;
       }
       .chef:hover {
-        transform: scale(1.1);
+        transform: scale(1.06);
       }
     }
   }
@@ -437,15 +437,15 @@
         }
       }
       .chef:hover .chef-social {
-        right: 50px;
+        right: 10px;
       }
       .chef:hover {
-        transform: scale(1.1);
+        transform: scale(1.06);
       }
     }
   }
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+ @media (min-width: 992px) and (max-width: 1199px) {
   .section-7 {
     margin-top: 20px;
     width: 100%;
@@ -512,10 +512,10 @@
         }
       }
       .chef:hover .chef-social {
-        right: 50px;
+        right: 10px;
       }
       .chef:hover {
-        transform: scale(1.1);
+        transform: scale(1.06);
       }
     }
   }
@@ -585,10 +585,10 @@
         }
       }
       .chef:hover .chef-social {
-        right: 50px;
+        right: 10px;
       }
       .chef:hover {
-        transform: scale(1.1);
+        transform: scale(1.06);
       }
     }
   }
@@ -660,10 +660,10 @@
         }
       }
       .chef:hover .chef-social {
-        right: 50px;
+        right: 10px;
       }
       .chef:hover {
-        transform: scale(1.1);
+        transform: scale(1.06);
       }
     }
   }
@@ -733,11 +733,11 @@
         }
       }
       .chef:hover .chef-social {
-        right: 50px;
+        right: 10px;
       }
       .chef:hover {
-        transform: scale(1.1);
+        transform: scale(1.06);
       }
     }
   }
-}
+} 
