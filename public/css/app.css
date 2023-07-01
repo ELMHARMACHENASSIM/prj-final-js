@@ -300,27 +300,27 @@ header .log-Fixed .content .span1 span {
   border-bottom: 3px solid rgba(63, 63, 63, 0.422);
   cursor: pointer;
 }
-header .log-Fixed .content .span1 .btn1.active {
+header .log-Fixed .content .span1 .btnsignin.active {
   border-bottom: 3px solid #cf1311;
 }
-header .log-Fixed .content .span1 .btn2.active {
+header .log-Fixed .content .span1 .btnsignup.active {
   border-bottom: 3px solid #cf1311;
 }
-header .log-Fixed .content .cont-one {
+header .log-Fixed .content .sign {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 80%;
 }
-header .log-Fixed .content .cont-one form {
+header .log-Fixed .content .sign form {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-header .log-Fixed .content .cont-one form input {
+header .log-Fixed .content .sign form input {
   width: 100%;
   height: 40px;
   padding-left: 5px;
@@ -328,13 +328,13 @@ header .log-Fixed .content .cont-one form input {
   border: 1px solid rgba(136, 136, 136, 0.5607843137);
   outline: none;
 }
-header .log-Fixed .content .cont-one form a {
+header .log-Fixed .content .sign form a {
   margin-top: 10px;
   color: blue;
   background: none;
   text-decoration: underline;
 }
-header .log-Fixed .content .cont-one form button {
+header .log-Fixed .content .sign form button {
   margin-top: 10px;
   background-color: #cf1311;
   color: #fff;
@@ -343,23 +343,23 @@ header .log-Fixed .content .cont-one form button {
   outline: none;
   border: none;
 }
-header .log-Fixed .content .cont-one form .socialconnet {
+header .log-Fixed .content .sign form .socialconnet {
   margin-top: 20px;
   width: 100%;
   text-align: center;
 }
-header .log-Fixed .content .cont-one form .socialconnet h2 {
+header .log-Fixed .content .sign form .socialconnet h2 {
   font-size: 16px;
   font-weight: 400;
 }
-header .log-Fixed .content .cont-one form .socialconnet .ticon {
+header .log-Fixed .content .sign form .socialconnet .ticon {
   margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
 }
-header .log-Fixed .content .cont-one form .socialconnet .ticon i {
+header .log-Fixed .content .sign form .socialconnet .ticon i {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -371,16 +371,16 @@ header .log-Fixed .content .cont-one form .socialconnet .ticon i {
   border-radius: 50%;
   cursor: pointer;
 }
-header .log-Fixed .content .div-content1 {
+header .log-Fixed .content .signin {
   display: none;
 }
-header .log-Fixed .content .div-content1.show {
+header .log-Fixed .content .signin.show {
   display: block;
 }
-header .log-Fixed .content .div-content2 {
+header .log-Fixed .content .signup {
   display: none;
 }
-header .log-Fixed .content .div-content2.show {
+header .log-Fixed .content .signup.show {
   display: block;
 }
 header .log-Fixed.hide {
@@ -542,27 +542,27 @@ header.dark .log-Fixed .content .span1 span {
   border-bottom: 3px solid rgba(63, 63, 63, 0.422);
   cursor: pointer;
 }
-header.dark .log-Fixed .content .span1 .btn1.active {
+header.dark .log-Fixed .content .span1 .btnsignin.active {
   border-bottom: 3px solid #cf1311;
 }
-header.dark .log-Fixed .content .span1 .btn2.active {
+header.dark .log-Fixed .content .span1 .btnsignup.active {
   border-bottom: 3px solid #cf1311;
 }
-header.dark .log-Fixed .content .cont-one {
+header.dark .log-Fixed .content .sign {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 80%;
 }
-header.dark .log-Fixed .content .cont-one form {
+header.dark .log-Fixed .content .sign form {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-header.dark .log-Fixed .content .cont-one form input {
+header.dark .log-Fixed .content .sign form input {
   width: 100%;
   height: 40px;
   padding-left: 5px;
@@ -570,13 +570,13 @@ header.dark .log-Fixed .content .cont-one form input {
   border: 1px solid rgba(136, 136, 136, 0.5607843137);
   outline: none;
 }
-header.dark .log-Fixed .content .cont-one form a {
+header.dark .log-Fixed .content .sign form a {
   margin-top: 10px;
   color: #fff;
   background: none;
   text-decoration: underline;
 }
-header.dark .log-Fixed .content .cont-one form button {
+header.dark .log-Fixed .content .sign form button {
   margin-top: 10px;
   background-color: #cf1311;
   color: #fff;
@@ -585,23 +585,23 @@ header.dark .log-Fixed .content .cont-one form button {
   outline: none;
   border: none;
 }
-header.dark .log-Fixed .content .cont-one form .socialconnet {
+header.dark .log-Fixed .content .sign form .socialconnet {
   margin-top: 20px;
   width: 100%;
   text-align: center;
 }
-header.dark .log-Fixed .content .cont-one form .socialconnet h2 {
+header.dark .log-Fixed .content .sign form .socialconnet h2 {
   font-size: 16px;
   font-weight: 400;
 }
-header.dark .log-Fixed .content .cont-one form .socialconnet .ticon {
+header.dark .log-Fixed .content .sign form .socialconnet .ticon {
   margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
 }
-header.dark .log-Fixed .content .cont-one form .socialconnet .ticon i {
+header.dark .log-Fixed .content .sign form .socialconnet .ticon i {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -613,16 +613,16 @@ header.dark .log-Fixed .content .cont-one form .socialconnet .ticon i {
   border-radius: 50%;
   cursor: pointer;
 }
-header.dark .log-Fixed .content .div-content1 {
+header.dark .log-Fixed .content .signin {
   display: none;
 }
-header.dark .log-Fixed .content .div-content1.show {
+header.dark .log-Fixed .content .signin.show {
   display: block;
 }
-header.dark .log-Fixed .content .div-content2 {
+header.dark .log-Fixed .content .signup {
   display: none;
 }
-header.dark .log-Fixed .content .div-content2.show {
+header.dark .log-Fixed .content .signup.show {
   display: block;
 }
 header.dark .log-Fixed.hide {
@@ -761,27 +761,27 @@ header.dark .log-Fixed.hide {
     border-bottom: 3px solid rgba(63, 63, 63, 0.422);
     cursor: pointer;
   }
-  header .log-Fixed .content .span1 .btn1.active {
+  header .log-Fixed .content .span1 .btnsignin.active {
     border-bottom: 3px solid #cf1311;
   }
-  header .log-Fixed .content .span1 .btn2.active {
+  header .log-Fixed .content .span1 .btnsignup.active {
     border-bottom: 3px solid #cf1311;
   }
-  header .log-Fixed .content .cont-one {
+  header .log-Fixed .content .sign {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
   }
-  header .log-Fixed .content .cont-one form {
+  header .log-Fixed .content .sign form {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
-  header .log-Fixed .content .cont-one form input {
+  header .log-Fixed .content .sign form input {
     width: 100%;
     height: 40px;
     padding-left: 5px;
@@ -789,13 +789,13 @@ header.dark .log-Fixed.hide {
     border: 1px solid rgba(136, 136, 136, 0.5607843137);
     outline: none;
   }
-  header .log-Fixed .content .cont-one form a {
+  header .log-Fixed .content .sign form a {
     margin-top: 10px;
     color: blue;
     background: none;
     text-decoration: underline;
   }
-  header .log-Fixed .content .cont-one form button {
+  header .log-Fixed .content .sign form button {
     margin-top: 10px;
     background-color: #cf1311;
     color: #fff;
@@ -804,23 +804,23 @@ header.dark .log-Fixed.hide {
     outline: none;
     border: none;
   }
-  header .log-Fixed .content .cont-one form .socialconnet {
+  header .log-Fixed .content .sign form .socialconnet {
     margin-top: 20px;
     width: 100%;
     text-align: center;
   }
-  header .log-Fixed .content .cont-one form .socialconnet h2 {
+  header .log-Fixed .content .sign form .socialconnet h2 {
     font-size: 16px;
     font-weight: 400;
   }
-  header .log-Fixed .content .cont-one form .socialconnet .ticon {
+  header .log-Fixed .content .sign form .socialconnet .ticon {
     margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
   }
-  header .log-Fixed .content .cont-one form .socialconnet .ticon i {
+  header .log-Fixed .content .sign form .socialconnet .ticon i {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -832,16 +832,16 @@ header.dark .log-Fixed.hide {
     border-radius: 50%;
     cursor: pointer;
   }
-  header .log-Fixed .content .div-content1 {
+  header .log-Fixed .content .signin {
     display: none;
   }
-  header .log-Fixed .content .div-content1.show {
+  header .log-Fixed .content .signin.show {
     display: block;
   }
-  header .log-Fixed .content .div-content2 {
+  header .log-Fixed .content .signup {
     display: none;
   }
-  header .log-Fixed .content .div-content2.show {
+  header .log-Fixed .content .signup.show {
     display: block;
   }
   header .log-Fixed.hide {
@@ -977,27 +977,27 @@ header.dark .log-Fixed.hide {
     border-bottom: 3px solid rgba(63, 63, 63, 0.422);
     cursor: pointer;
   }
-  header.dark .log-Fixed .content .span1 .btn1.active {
+  header.dark .log-Fixed .content .span1 .btnsignin.active {
     border-bottom: 3px solid #cf1311;
   }
-  header.dark .log-Fixed .content .span1 .btn2.active {
+  header.dark .log-Fixed .content .span1 .btnsignup.active {
     border-bottom: 3px solid #cf1311;
   }
-  header.dark .log-Fixed .content .cont-one {
+  header.dark .log-Fixed .content .sign {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
   }
-  header.dark .log-Fixed .content .cont-one form {
+  header.dark .log-Fixed .content .sign form {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
-  header.dark .log-Fixed .content .cont-one form input {
+  header.dark .log-Fixed .content .sign form input {
     width: 100%;
     height: 40px;
     padding-left: 5px;
@@ -1005,13 +1005,13 @@ header.dark .log-Fixed.hide {
     border: 1px solid rgba(136, 136, 136, 0.5607843137);
     outline: none;
   }
-  header.dark .log-Fixed .content .cont-one form a {
+  header.dark .log-Fixed .content .sign form a {
     margin-top: 10px;
     color: #fff;
     background: none;
     text-decoration: underline;
   }
-  header.dark .log-Fixed .content .cont-one form button {
+  header.dark .log-Fixed .content .sign form button {
     margin-top: 10px;
     background-color: #cf1311;
     color: #fff;
@@ -1020,23 +1020,23 @@ header.dark .log-Fixed.hide {
     outline: none;
     border: none;
   }
-  header.dark .log-Fixed .content .cont-one form .socialconnet {
+  header.dark .log-Fixed .content .sign form .socialconnet {
     margin-top: 20px;
     width: 100%;
     text-align: center;
   }
-  header.dark .log-Fixed .content .cont-one form .socialconnet h2 {
+  header.dark .log-Fixed .content .sign form .socialconnet h2 {
     font-size: 16px;
     font-weight: 400;
   }
-  header.dark .log-Fixed .content .cont-one form .socialconnet .ticon {
+  header.dark .log-Fixed .content .sign form .socialconnet .ticon {
     margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
   }
-  header.dark .log-Fixed .content .cont-one form .socialconnet .ticon i {
+  header.dark .log-Fixed .content .sign form .socialconnet .ticon i {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1048,16 +1048,16 @@ header.dark .log-Fixed.hide {
     border-radius: 50%;
     cursor: pointer;
   }
-  header.dark .log-Fixed .content .div-content1 {
+  header.dark .log-Fixed .content .signin {
     display: none;
   }
-  header.dark .log-Fixed .content .div-content1.show {
+  header.dark .log-Fixed .content .signin.show {
     display: block;
   }
-  header.dark .log-Fixed .content .div-content2 {
+  header.dark .log-Fixed .content .signup {
     display: none;
   }
-  header.dark .log-Fixed .content .div-content2.show {
+  header.dark .log-Fixed .content .signup.show {
     display: block;
   }
   header.dark .log-Fixed.hide {
@@ -1278,27 +1278,27 @@ header.dark .log-Fixed.hide {
     border-bottom: 3px solid rgba(63, 63, 63, 0.422);
     cursor: pointer;
   }
-  header.dark .log-Fixed .content .span1 .btn1.active {
+  header.dark .log-Fixed .content .span1 .btnsignin.active {
     border-bottom: 3px solid #cf1311;
   }
-  header.dark .log-Fixed .content .span1 .btn2.active {
+  header.dark .log-Fixed .content .span1 .btnsignup.active {
     border-bottom: 3px solid #cf1311;
   }
-  header.dark .log-Fixed .content .cont-one {
+  header.dark .log-Fixed .content .sign {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
   }
-  header.dark .log-Fixed .content .cont-one form {
+  header.dark .log-Fixed .content .sign form {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
-  header.dark .log-Fixed .content .cont-one form input {
+  header.dark .log-Fixed .content .sign form input {
     width: 100%;
     height: 40px;
     padding-left: 5px;
@@ -1306,13 +1306,13 @@ header.dark .log-Fixed.hide {
     border: 1px solid rgba(136, 136, 136, 0.5607843137);
     outline: none;
   }
-  header.dark .log-Fixed .content .cont-one form a {
+  header.dark .log-Fixed .content .sign form a {
     margin-top: 10px;
     color: #fff;
     background: none;
     text-decoration: underline;
   }
-  header.dark .log-Fixed .content .cont-one form button {
+  header.dark .log-Fixed .content .sign form button {
     margin-top: 10px;
     background-color: #cf1311;
     color: #fff;
@@ -1321,23 +1321,23 @@ header.dark .log-Fixed.hide {
     outline: none;
     border: none;
   }
-  header.dark .log-Fixed .content .cont-one form .socialconnet {
+  header.dark .log-Fixed .content .sign form .socialconnet {
     margin-top: 20px;
     width: 100%;
     text-align: center;
   }
-  header.dark .log-Fixed .content .cont-one form .socialconnet h2 {
+  header.dark .log-Fixed .content .sign form .socialconnet h2 {
     font-size: 16px;
     font-weight: 400;
   }
-  header.dark .log-Fixed .content .cont-one form .socialconnet .ticon {
+  header.dark .log-Fixed .content .sign form .socialconnet .ticon {
     margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
   }
-  header.dark .log-Fixed .content .cont-one form .socialconnet .ticon i {
+  header.dark .log-Fixed .content .sign form .socialconnet .ticon i {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1349,16 +1349,16 @@ header.dark .log-Fixed.hide {
     border-radius: 50%;
     cursor: pointer;
   }
-  header.dark .log-Fixed .content .div-content1 {
+  header.dark .log-Fixed .content .signin {
     display: none;
   }
-  header.dark .log-Fixed .content .div-content1.show {
+  header.dark .log-Fixed .content .signin.show {
     display: block;
   }
-  header.dark .log-Fixed .content .div-content2 {
+  header.dark .log-Fixed .content .signup {
     display: none;
   }
-  header.dark .log-Fixed .content .div-content2.show {
+  header.dark .log-Fixed .content .signup.show {
     display: block;
   }
   header.dark .log-Fixed.hide {
@@ -1599,27 +1599,27 @@ header.dark .log-Fixed.hide {
     border-bottom: 3px solid rgba(63, 63, 63, 0.422);
     cursor: pointer;
   }
-  header.dark .log-Fixed .content .span1 .btn1.active {
+  header.dark .log-Fixed .content .span1 .btnsignin.active {
     border-bottom: 3px solid #cf1311;
   }
-  header.dark .log-Fixed .content .span1 .btn2.active {
+  header.dark .log-Fixed .content .span1 .btnsignup.active {
     border-bottom: 3px solid #cf1311;
   }
-  header.dark .log-Fixed .content .cont-one {
+  header.dark .log-Fixed .content .sign {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
   }
-  header.dark .log-Fixed .content .cont-one form {
+  header.dark .log-Fixed .content .sign form {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
-  header.dark .log-Fixed .content .cont-one form input {
+  header.dark .log-Fixed .content .sign form input {
     width: 100%;
     height: 40px;
     padding-left: 5px;
@@ -1627,13 +1627,13 @@ header.dark .log-Fixed.hide {
     border: 1px solid rgba(136, 136, 136, 0.5607843137);
     outline: none;
   }
-  header.dark .log-Fixed .content .cont-one form a {
+  header.dark .log-Fixed .content .sign form a {
     margin-top: 10px;
     color: #fff;
     background: none;
     text-decoration: underline;
   }
-  header.dark .log-Fixed .content .cont-one form button {
+  header.dark .log-Fixed .content .sign form button {
     margin-top: 10px;
     background-color: #cf1311;
     color: #fff;
@@ -1642,23 +1642,23 @@ header.dark .log-Fixed.hide {
     outline: none;
     border: none;
   }
-  header.dark .log-Fixed .content .cont-one form .socialconnet {
+  header.dark .log-Fixed .content .sign form .socialconnet {
     margin-top: 20px;
     width: 100%;
     text-align: center;
   }
-  header.dark .log-Fixed .content .cont-one form .socialconnet h2 {
+  header.dark .log-Fixed .content .sign form .socialconnet h2 {
     font-size: 16px;
     font-weight: 400;
   }
-  header.dark .log-Fixed .content .cont-one form .socialconnet .ticon {
+  header.dark .log-Fixed .content .sign form .socialconnet .ticon {
     margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
   }
-  header.dark .log-Fixed .content .cont-one form .socialconnet .ticon i {
+  header.dark .log-Fixed .content .sign form .socialconnet .ticon i {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1670,16 +1670,16 @@ header.dark .log-Fixed.hide {
     border-radius: 50%;
     cursor: pointer;
   }
-  header.dark .log-Fixed .content .div-content1 {
+  header.dark .log-Fixed .content .signin {
     display: none;
   }
-  header.dark .log-Fixed .content .div-content1.show {
+  header.dark .log-Fixed .content .signin.show {
     display: block;
   }
-  header.dark .log-Fixed .content .div-content2 {
+  header.dark .log-Fixed .content .signup {
     display: none;
   }
-  header.dark .log-Fixed .content .div-content2.show {
+  header.dark .log-Fixed .content .signup.show {
     display: block;
   }
   header.dark .log-Fixed.hide {
@@ -1972,27 +1972,27 @@ header.dark .log-Fixed.hide {
     border-bottom: 3px solid rgba(63, 63, 63, 0.422);
     cursor: pointer;
   }
-  header.dark .log-Fixed .content .span1 .btn1.active {
+  header.dark .log-Fixed .content .span1 .btnsignin.active {
     border-bottom: 3px solid #cf1311;
   }
-  header.dark .log-Fixed .content .span1 .btn2.active {
+  header.dark .log-Fixed .content .span1 .btnsignup.active {
     border-bottom: 3px solid #cf1311;
   }
-  header.dark .log-Fixed .content .cont-one {
+  header.dark .log-Fixed .content .sign {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
   }
-  header.dark .log-Fixed .content .cont-one form {
+  header.dark .log-Fixed .content .sign form {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
-  header.dark .log-Fixed .content .cont-one form input {
+  header.dark .log-Fixed .content .sign form input {
     width: 100%;
     height: 40px;
     padding-left: 5px;
@@ -2000,13 +2000,13 @@ header.dark .log-Fixed.hide {
     border: 1px solid rgba(136, 136, 136, 0.5607843137);
     outline: none;
   }
-  header.dark .log-Fixed .content .cont-one form a {
+  header.dark .log-Fixed .content .sign form a {
     margin-top: 10px;
     color: #fff;
     background: none;
     text-decoration: underline;
   }
-  header.dark .log-Fixed .content .cont-one form button {
+  header.dark .log-Fixed .content .sign form button {
     margin-top: 10px;
     background-color: #cf1311;
     color: #fff;
@@ -2015,23 +2015,23 @@ header.dark .log-Fixed.hide {
     outline: none;
     border: none;
   }
-  header.dark .log-Fixed .content .cont-one form .socialconnet {
+  header.dark .log-Fixed .content .sign form .socialconnet {
     margin-top: 20px;
     width: 100%;
     text-align: center;
   }
-  header.dark .log-Fixed .content .cont-one form .socialconnet h2 {
+  header.dark .log-Fixed .content .sign form .socialconnet h2 {
     font-size: 16px;
     font-weight: 400;
   }
-  header.dark .log-Fixed .content .cont-one form .socialconnet .ticon {
+  header.dark .log-Fixed .content .sign form .socialconnet .ticon {
     margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
   }
-  header.dark .log-Fixed .content .cont-one form .socialconnet .ticon i {
+  header.dark .log-Fixed .content .sign form .socialconnet .ticon i {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2043,16 +2043,16 @@ header.dark .log-Fixed.hide {
     border-radius: 50%;
     cursor: pointer;
   }
-  header.dark .log-Fixed .content .div-content1 {
+  header.dark .log-Fixed .content .signin {
     display: none;
   }
-  header.dark .log-Fixed .content .div-content1.show {
+  header.dark .log-Fixed .content .signin.show {
     display: block;
   }
-  header.dark .log-Fixed .content .div-content2 {
+  header.dark .log-Fixed .content .signup {
     display: none;
   }
-  header.dark .log-Fixed .content .div-content2.show {
+  header.dark .log-Fixed .content .signup.show {
     display: block;
   }
   header.dark .log-Fixed.hide {
@@ -2235,27 +2235,27 @@ header.dark .log-Fixed.hide {
     border-bottom: 3px solid rgba(63, 63, 63, 0.422);
     cursor: pointer;
   }
-  header .log-Fixed .content .span1 .btn1.active {
+  header .log-Fixed .content .span1 .btnsignin.active {
     border-bottom: 3px solid #cf1311;
   }
-  header .log-Fixed .content .span1 .btn2.active {
+  header .log-Fixed .content .span1 .btnsignup.active {
     border-bottom: 3px solid #cf1311;
   }
-  header .log-Fixed .content .cont-one {
+  header .log-Fixed .content .sign {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
   }
-  header .log-Fixed .content .cont-one form {
+  header .log-Fixed .content .sign form {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
-  header .log-Fixed .content .cont-one form input {
+  header .log-Fixed .content .sign form input {
     width: 100%;
     height: 40px;
     padding-left: 5px;
@@ -2263,13 +2263,13 @@ header.dark .log-Fixed.hide {
     border: 1px solid rgba(136, 136, 136, 0.5607843137);
     outline: none;
   }
-  header .log-Fixed .content .cont-one form a {
+  header .log-Fixed .content .sign form a {
     margin-top: 10px;
     color: blue;
     background: none;
     text-decoration: underline;
   }
-  header .log-Fixed .content .cont-one form button {
+  header .log-Fixed .content .sign form button {
     margin-top: 10px;
     background-color: #cf1311;
     color: #fff;
@@ -2278,23 +2278,23 @@ header.dark .log-Fixed.hide {
     outline: none;
     border: none;
   }
-  header .log-Fixed .content .cont-one form .socialconnet {
+  header .log-Fixed .content .sign form .socialconnet {
     margin-top: 20px;
     width: 100%;
     text-align: center;
   }
-  header .log-Fixed .content .cont-one form .socialconnet h2 {
+  header .log-Fixed .content .sign form .socialconnet h2 {
     font-size: 16px;
     font-weight: 400;
   }
-  header .log-Fixed .content .cont-one form .socialconnet .ticon {
+  header .log-Fixed .content .sign form .socialconnet .ticon {
     margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
   }
-  header .log-Fixed .content .cont-one form .socialconnet .ticon i {
+  header .log-Fixed .content .sign form .socialconnet .ticon i {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2306,16 +2306,16 @@ header.dark .log-Fixed.hide {
     border-radius: 50%;
     cursor: pointer;
   }
-  header .log-Fixed .content .div-content1 {
+  header .log-Fixed .content .signin {
     display: none;
   }
-  header .log-Fixed .content .div-content1.show {
+  header .log-Fixed .content .signin.show {
     display: block;
   }
-  header .log-Fixed .content .div-content2 {
+  header .log-Fixed .content .signup {
     display: none;
   }
-  header .log-Fixed .content .div-content2.show {
+  header .log-Fixed .content .signup.show {
     display: block;
   }
   header .log-Fixed.hide {
@@ -2476,27 +2476,27 @@ header.dark .log-Fixed.hide {
     border-bottom: 3px solid rgba(63, 63, 63, 0.422);
     cursor: pointer;
   }
-  header.dark .log-Fixed .content .span1 .btn1.active {
+  header.dark .log-Fixed .content .span1 .btnsignin.active {
     border-bottom: 3px solid #cf1311;
   }
-  header.dark .log-Fixed .content .span1 .btn2.active {
+  header.dark .log-Fixed .content .span1 .btnsignup.active {
     border-bottom: 3px solid #cf1311;
   }
-  header.dark .log-Fixed .content .cont-one {
+  header.dark .log-Fixed .content .sign {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
   }
-  header.dark .log-Fixed .content .cont-one form {
+  header.dark .log-Fixed .content .sign form {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
-  header.dark .log-Fixed .content .cont-one form input {
+  header.dark .log-Fixed .content .sign form input {
     width: 100%;
     height: 40px;
     padding-left: 5px;
@@ -2504,13 +2504,13 @@ header.dark .log-Fixed.hide {
     border: 1px solid rgba(136, 136, 136, 0.5607843137);
     outline: none;
   }
-  header.dark .log-Fixed .content .cont-one form a {
+  header.dark .log-Fixed .content .sign form a {
     margin-top: 10px;
     color: #fff;
     background: none;
     text-decoration: underline;
   }
-  header.dark .log-Fixed .content .cont-one form button {
+  header.dark .log-Fixed .content .sign form button {
     margin-top: 10px;
     background-color: #cf1311;
     color: #fff;
@@ -2519,23 +2519,23 @@ header.dark .log-Fixed.hide {
     outline: none;
     border: none;
   }
-  header.dark .log-Fixed .content .cont-one form .socialconnet {
+  header.dark .log-Fixed .content .sign form .socialconnet {
     margin-top: 20px;
     width: 100%;
     text-align: center;
   }
-  header.dark .log-Fixed .content .cont-one form .socialconnet h2 {
+  header.dark .log-Fixed .content .sign form .socialconnet h2 {
     font-size: 16px;
     font-weight: 400;
   }
-  header.dark .log-Fixed .content .cont-one form .socialconnet .ticon {
+  header.dark .log-Fixed .content .sign form .socialconnet .ticon {
     margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
   }
-  header.dark .log-Fixed .content .cont-one form .socialconnet .ticon i {
+  header.dark .log-Fixed .content .sign form .socialconnet .ticon i {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2547,16 +2547,16 @@ header.dark .log-Fixed.hide {
     border-radius: 50%;
     cursor: pointer;
   }
-  header.dark .log-Fixed .content .div-content1 {
+  header.dark .log-Fixed .content .signin {
     display: none;
   }
-  header.dark .log-Fixed .content .div-content1.show {
+  header.dark .log-Fixed .content .signin.show {
     display: block;
   }
-  header.dark .log-Fixed .content .div-content2 {
+  header.dark .log-Fixed .content .signup {
     display: none;
   }
-  header.dark .log-Fixed .content .div-content2.show {
+  header.dark .log-Fixed .content .signup.show {
     display: block;
   }
   header.dark .log-Fixed.hide {
@@ -5262,27 +5262,35 @@ header.dark .log-Fixed.hide {
 }
 .section-5.dark .container .content .div-content1 {
   display: none;
+  visibility: hidden;
 }
 .section-5.dark .container .content .div-content1.show {
   display: block;
+  visibility: visible;
 }
 .section-5.dark .container .content .div-content2 {
   display: none;
+  visibility: hidden;
 }
 .section-5.dark .container .content .div-content2.show {
   display: block;
+  visibility: visible;
 }
 .section-5.dark .container .content .div-content3 {
   display: none;
+  visibility: hidden;
 }
 .section-5.dark .container .content .div-content3.show {
   display: block;
+  visibility: visible;
 }
 .section-5.dark .container .content .div-content4 {
   display: none;
+  visibility: hidden;
 }
 .section-5.dark .container .content .div-content4.show {
   display: block;
+  visibility: visible;
 }
 
 @media (max-width: 576px) {

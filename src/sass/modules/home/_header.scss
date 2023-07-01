@@ -172,14 +172,14 @@ header {
           border-bottom: 3px solid rgba(63, 63, 63, 0.422);
           cursor: pointer;
         }
-        .btn1.active {
+        .btnsignin.active {
           border-bottom: 3px solid $red-color;
         }
-        .btn2.active {
+        .btnsignup.active {
           border-bottom: 3px solid $red-color;
         }
       }
-      .cont-one {
+      .sign{
         position: absolute;
         top: 50%;
         left: 50%;
@@ -246,16 +246,16 @@ header {
         }
       }
 
-      .div-content1 {
+      .signin {
         display: none;
       }
-      .div-content1.show {
+      .signin.show {
         display: block;
       }
-      .div-content2 {
+      .signup {
         display: none;
       }
-      .div-content2.show {
+      .signup.show {
         display: block;
       }
     }
@@ -424,14 +424,14 @@ header.dark {
           border-bottom: 3px solid rgba(63, 63, 63, 0.422);
           cursor: pointer;
         }
-        .btn1.active {
+        .btnsignin.active {
           border-bottom: 3px solid $red-color;
         }
-        .btn2.active {
+        .btnsignup.active {
           border-bottom: 3px solid $red-color;
         }
       }
-      .cont-one {
+      .sign {
         position: absolute;
         top: 50%;
         left: 50%;
@@ -498,16 +498,16 @@ header.dark {
         }
       }
 
-      .div-content1 {
+      .signin {
         display: none;
       }
-      .div-content1.show {
+      .signin.show {
         display: block;
       }
-      .div-content2 {
+      .signup {
         display: none;
       }
-      .div-content2.show {
+      .signup.show {
         display: block;
       }
     }
@@ -655,14 +655,14 @@ header.dark {
             border-bottom: 3px solid rgba(63, 63, 63, 0.422);
             cursor: pointer;
           }
-          .btn1.active {
+          .btnsignin.active {
             border-bottom: 3px solid $red-color;
           }
-          .btn2.active {
+          .btnsignup.active {
             border-bottom: 3px solid $red-color;
           }
         }
-        .cont-one {
+        .sign {
           position: absolute;
           top: 50%;
           left: 50%;
@@ -729,16 +729,16 @@ header.dark {
           }
         }
 
-        .div-content1 {
+        .signin {
           display: none;
         }
-        .div-content1.show {
+        .signin.show {
           display: block;
         }
-        .div-content2 {
+        .signup {
           display: none;
         }
-        .div-content2.show {
+        .signup.show {
           display: block;
         }
       }
@@ -882,14 +882,14 @@ header.dark {
             border-bottom: 3px solid rgba(63, 63, 63, 0.422);
             cursor: pointer;
           }
-          .btn1.active {
+          .btnsignin.active {
             border-bottom: 3px solid $red-color;
           }
-          .btn2.active {
+          .btnsignup.active {
             border-bottom: 3px solid $red-color;
           }
         }
-        .cont-one {
+        .sign{
           position: absolute;
           top: 50%;
           left: 50%;
@@ -956,16 +956,16 @@ header.dark {
           }
         }
 
-        .div-content1 {
+        .signin {
           display: none;
         }
-        .div-content1.show {
+        .signin.show {
           display: block;
         }
-        .div-content2 {
+        .signup {
           display: none;
         }
-        .div-content2.show {
+        .signup.show {
           display: block;
         }
       }
@@ -1205,14 +1205,14 @@ header.dark {
             border-bottom: 3px solid rgba(63, 63, 63, 0.422);
             cursor: pointer;
           }
-          .btn1.active {
+          .btnsignin.active {
             border-bottom: 3px solid $red-color;
           }
-          .btn2.active {
+          .btnsignup.active {
             border-bottom: 3px solid $red-color;
           }
         }
-        .cont-one {
+        .sign {
           position: absolute;
           top: 50%;
           left: 50%;
@@ -1279,16 +1279,16 @@ header.dark {
           }
         }
 
-        .div-content1 {
+        .signin {
           display: none;
         }
-        .div-content1.show {
+        .signin.show {
           display: block;
         }
-        .div-content2 {
+        .signup {
           display: none;
         }
-        .div-content2.show {
+        .signup.show {
           display: block;
         }
       }
@@ -1550,14 +1550,14 @@ header.dark {
           border-bottom: 3px solid rgba(63, 63, 63, 0.422);
           cursor: pointer;
         }
-        .btn1.active {
+        .btnsignin.active {
           border-bottom: 3px solid $red-color;
         }
-        .btn2.active {
+        .btnsignup.active {
           border-bottom: 3px solid $red-color;
         }
       }
-      .cont-one {
+      .sign {
         position: absolute;
         top: 50%;
         left: 50%;
@@ -1624,16 +1624,16 @@ header.dark {
         }
       }
 
-      .div-content1 {
+      .signin {
         display: none;
       }
-      .div-content1.show {
+      .signin.show {
         display: block;
       }
-      .div-content2 {
+      .signup {
         display: none;
       }
-      .div-content2.show {
+      .signup.show {
         display: block;
       }
     }
@@ -1937,14 +1937,14 @@ header.dark {
             border-bottom: 3px solid rgba(63, 63, 63, 0.422);
             cursor: pointer;
           }
-          .btn1.active {
+          .btnsignin.active {
             border-bottom: 3px solid $red-color;
           }
-          .btn2.active {
+          .btnsignup.active {
             border-bottom: 3px solid $red-color;
           }
         }
-        .cont-one {
+        .sign {
           position: absolute;
           top: 50%;
           left: 50%;
@@ -2011,16 +2011,16 @@ header.dark {
           }
         }
 
-        .div-content1 {
+        .signin {
           display: none;
         }
-        .div-content1.show {
+        .signin.show {
           display: block;
         }
-        .div-content2 {
+        .signup {
           display: none;
         }
-        .div-content2.show {
+        .signup.show {
           display: block;
         }
       }
@@ -2205,14 +2205,14 @@ header.dark {
             border-bottom: 3px solid rgba(63, 63, 63, 0.422);
             cursor: pointer;
           }
-          .btn1.active {
+          .btnsignin.active {
             border-bottom: 3px solid $red-color;
           }
-          .btn2.active {
+          .btnsignup.active {
             border-bottom: 3px solid $red-color;
           }
         }
-        .cont-one {
+        .sign{
           position: absolute;
           top: 50%;
           left: 50%;
@@ -2279,16 +2279,16 @@ header.dark {
           }
         }
 
-        .div-content1 {
+        .signin {
           display: none;
         }
-        .div-content1.show {
+        .signin.show {
           display: block;
         }
-        .div-content2 {
+        .signup {
           display: none;
         }
-        .div-content2.show {
+        .signup.show {
           display: block;
         }
       }
@@ -2457,14 +2457,14 @@ header.dark {
             border-bottom: 3px solid rgba(63, 63, 63, 0.422);
             cursor: pointer;
           }
-          .btn1.active {
+          .btnsignin.active {
             border-bottom: 3px solid $red-color;
           }
-          .btn2.active {
+          .btnsignup.active {
             border-bottom: 3px solid $red-color;
           }
         }
-        .cont-one {
+        .sign {
           position: absolute;
           top: 50%;
           left: 50%;
@@ -2531,16 +2531,16 @@ header.dark {
           }
         }
 
-        .div-content1 {
+        .signin {
           display: none;
         }
-        .div-content1.show {
+        .signin.show {
           display: block;
         }
-        .div-content2 {
+        .signup {
           display: none;
         }
-        .div-content2.show {
+        .signup.show {
           display: block;
         }
       }

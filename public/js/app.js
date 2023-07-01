@@ -49,6 +49,7 @@ let divcontent4 = document.querySelector(".div-content4");
 span1.addEventListener("click", () => {
   divcontent1.classList.add("show");
   span1.classList.add("active");
+document.querySelector(".heading h1").textContent = "Starters";
   divcontent2.classList.remove("show");
   span2.classList.remove("active");
   divcontent3.classList.remove("show");
@@ -59,6 +60,7 @@ span1.addEventListener("click", () => {
 span2.addEventListener("click", () => {
   divcontent2.classList.add("show");
   span2.classList.add("active");
+document.querySelector(".heading h1").textContent = "Breakfast";
   divcontent1.classList.remove("show");
   span1.classList.remove("active");
   divcontent3.classList.remove("show");
@@ -69,6 +71,7 @@ span2.addEventListener("click", () => {
 span3.addEventListener("click", () => {
   divcontent3.classList.add("show");
   span3.classList.add("active");
+document.querySelector(".heading h1").textContent = "Lunch";
   divcontent2.classList.remove("show");
   span2.classList.remove("active");
   divcontent1.classList.remove("show");
@@ -79,6 +82,7 @@ span3.addEventListener("click", () => {
 span4.addEventListener("click", () => {
   divcontent4.classList.add("show");
   span4.classList.add("active");
+  document.querySelector(".heading h1").textContent = "Dinner";
   divcontent2.classList.remove("show");
   span2.classList.remove("active");
   divcontent1.classList.remove("show");
@@ -128,7 +132,7 @@ let isDragImg = false,
   startImgScrollLeft;
 
 let slidBtnImg = document.querySelectorAll(".btnsslidImg button");
-console.log(slidBtnImg);
+
 
 let firstWidthImg = document.querySelector(".cardimg").offsetWidth;
 slidBtnImg.forEach((btnimg) => {
@@ -183,9 +187,7 @@ function darkMode() {
   document.querySelector(".section-1").classList.toggle("dark");
   document.querySelector(".section-2").classList.toggle("dark");
   document.querySelector(".section-3").classList.toggle("dark");
-  
   document.querySelector(".section-4").classList.toggle("dark");
-    
   document.querySelector(".section-5").classList.toggle("dark");
   document.querySelector(".section-5 .main-heading").classList.toggle("dark");
   document.querySelector(".section-6").classList.toggle("dark");
@@ -204,12 +206,31 @@ darkBtn.addEventListener("click", darkMode);
 let openLogin = document.querySelector("#openLogin");
 let closeLogin = document.querySelector("#closeLogin");
 let contentForm = document.querySelector(".log-Fixed");
+let btnSignin = document.querySelector(".btnsignin");
+let btnSignup = document.querySelector(".btnsignup");
+let signin = document.querySelector(".signin");
+let signup = document.querySelector(".signup");
+
 function openForm() {
   contentForm.classList.add("hide");
-
 }
 function closeForm() {
   contentForm.classList.remove("hide");
 }
+function signinForm() {
+  btnSignin.classList.add("active");
+  btnSignup.classList.remove("active");
+  signin.classList.add("show");
+  signup.classList.remove("show");
+}
+function signupForm() {
+  btnSignin.classList.remove("active");
+  btnSignup.classList.add("active");
+  signup.classList.add("show");
+  signin.classList.remove("show");
+}
+
+btnSignin.addEventListener('click',signinForm);
+btnSignup.addEventListener('click',signupForm);
 openLogin.addEventListener('click',openForm);
-closeLogin.addEventListener('click',closeForm);
+closeLogin.addEventListener('click',closeForm); 
